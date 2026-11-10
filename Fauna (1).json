@@ -1,0 +1,240 @@
+[
+  {
+    "emoji": "🐆",
+    "name": "onça-pintada",
+    "country": "brasil",
+    "continent": "américa do sul",
+    "type": "fauna"
+  },
+  {
+    "emoji": "🦜",
+    "name": "arara",
+    "country": "brasil",
+    "continent": "américa do sul",
+    "type": "fauna"
+  },
+  {
+    "emoji": "🦥",
+    "name": "bicho-preguiça",
+    "country": "brasil",
+    "continent": "américa do sul",
+    "type": "fauna"
+  },
+  {
+    "emoji": "🐊",
+    "name": "jacaré-açu",
+    "country": "brasil",
+    "continent": "américa do sul",
+    "type": "fauna"
+  },
+  {
+    "emoji": "🌸",
+    "name": "vitória-régia",
+    "country": "brasil",
+    "continent": "américa do sul",
+    "type": "flora"
+  },
+  {
+    "emoji": "🦅",
+    "name": "águia-careca",
+    "country": "eua",
+    "continent": "américa do norte",
+    "type": "fauna"
+  },
+  {
+    "emoji": "🐻",
+    "name": "urso-pardo",
+    "country": "eua",
+    "continent": "américa do norte",
+    "type": "fauna"
+  },
+  {
+    "emoji": "🐺",
+    "name": "lobo",
+    "country": "canadá",
+    "continent": "américa do norte",
+    "type": "fauna"
+  },
+  {
+    "emoji": "🦬",
+    "name": "bisão",
+    "country": "eua",
+    "continent": "américa do norte",
+    "type": "fauna"
+  },
+  {
+    "emoji": "🌵",
+    "name": "cacto",
+    "country": "méxico",
+    "continent": "américa do norte",
+    "type": "flora"
+  },
+  {
+    "emoji": "🦁",
+    "name": "leão",
+    "country": "quênia",
+    "continent": "áfrica",
+    "type": "fauna"
+  },
+  {
+    "emoji": "🐘",
+    "name": "elefante-africano",
+    "country": "quênia",
+    "continent": "áfrica",
+    "type": "fauna"
+  },
+  {
+    "emoji": "🦒",
+    "name": "girafa",
+    "country": "quênia",
+    "continent": "áfrica",
+    "type": "fauna"
+  },
+  {
+    "emoji": "🦓",
+    "name": "zebra",
+    "country": "quênia",
+    "continent": "áfrica",
+    "type": "fauna"
+  },
+  {
+    "emoji": "🌳",
+    "name": "baobá",
+    "country": "madagascar",
+    "continent": "áfrica",
+    "type": "flora"
+  },
+  {
+    "emoji": "🦊",
+    "name": "raposa",
+    "country": "inglaterra",
+    "continent": "europa",
+    "type": "fauna"
+  },
+  {
+    "emoji": "🦌",
+    "name": "cervo",
+    "country": "alemanha",
+    "continent": "europa",
+    "type": "fauna"
+  },
+  {
+    "emoji": "🦉",
+    "name": "coruja",
+    "country": "frança",
+    "continent": "europa",
+    "type": "fauna"
+  },
+  {
+    "emoji": "🌳",
+    "name": "carvalho",
+    "country": "inglaterra",
+    "continent": "europa",
+    "type": "flora"
+  },
+  {
+    "emoji": "🐼",
+    "name": "panda",
+    "country": "china",
+    "continent": "ásia",
+    "type": "fauna"
+  },
+  {
+    "emoji": "🐅",
+    "name": "tigre",
+    "country": "índia",
+    "continent": "ásia",
+    "type": "fauna"
+  },
+  {
+    "emoji": "🐘",
+    "name": "elefante-asiático",
+    "country": "índia",
+    "continent": "ásia",
+    "type": "fauna"
+  },
+  {
+    "emoji": "🌸",
+    "name": "sakura",
+    "country": "japão",
+    "continent": "ásia",
+    "type": "flora"
+  },
+  {
+    "emoji": "🎋",
+    "name": "bambu",
+    "country": "china",
+    "continent": "ásia",
+    "type": "flora"
+  },
+  {
+    "emoji": "🦘",
+    "name": "canguru",
+    "country": "austrália",
+    "continent": "oceania",
+    "type": "fauna"
+  },
+  {
+    "emoji": "🐨",
+    "name": "coala",
+    "country": "austrália",
+    "continent": "oceania",
+    "type": "fauna"
+  },
+  {
+    "emoji": "🦆",
+    "name": "ornitorrinco",
+    "country": "austrália",
+    "continent": "oceania",
+    "type": "fauna"
+  },
+  {
+    "emoji": "🌿",
+    "name": "eucalipto",
+    "country": "austrália",
+    "continent": "oceania",
+    "type": "flora"
+  },
+  {
+    "emoji": "🐧",
+    "name": "pinguim-imperador",
+    "country": "antártida",
+    "continent": "antártida",
+    "type": "fauna"
+  },
+  {
+    "emoji": "🦭",
+    "name": "foca",
+    "country": "antártida",
+    "continent": "antártida",
+    "type": "fauna"
+  },
+  {
+    "emoji": "🐋",
+    "name": "baleia-azul",
+    "country": "oceano",
+    "continent": "oceano",
+    "type": "fauna"
+  },
+  {
+    "emoji": "🐢",
+    "name": "tartaruga-marinha",
+    "country": "oceano",
+    "continent": "oceano",
+    "type": "fauna"
+  },
+  {
+    "emoji": "🦑",
+    "name": "polvo",
+    "country": "oceano",
+    "continent": "oceano",
+    "type": "fauna"
+  },
+  {
+    "emoji": "🪸",
+    "name": "coral",
+    "country": "oceano",
+    "continent": "oceano",
+    "type": "flora"
+  }
+]

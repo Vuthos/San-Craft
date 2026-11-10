@@ -1,0 +1,122 @@
+[
+  {
+    "emoji": "⚽",
+    "name": "pelé",
+    "country": "brasil",
+    "type": "famoso"
+  },
+  {
+    "emoji": "⚽",
+    "name": "neymar",
+    "country": "brasil",
+    "type": "famoso"
+  },
+  {
+    "emoji": "🏎️",
+    "name": "ayrton-senna",
+    "country": "brasil",
+    "type": "famoso"
+  },
+  {
+    "emoji": "🎤",
+    "name": "anitta",
+    "country": "brasil",
+    "type": "famoso"
+  },
+  {
+    "emoji": "🎤",
+    "name": "roberto-carlos",
+    "country": "brasil",
+    "type": "famoso"
+  },
+  {
+    "emoji": "📚",
+    "name": "machado-de-assis",
+    "country": "brasil",
+    "type": "famoso"
+  },
+  {
+    "emoji": "🎨",
+    "name": "tarsila-do-amaral",
+    "country": "brasil",
+    "type": "famoso"
+  },
+  {
+    "emoji": "⚽",
+    "name": "marta",
+    "country": "brasil",
+    "type": "famoso"
+  },
+  {
+    "emoji": "🎭",
+    "name": "fernanda-montenegro",
+    "country": "brasil",
+    "type": "famoso"
+  },
+  {
+    "emoji": "🎸",
+    "name": "raul-seixas",
+    "country": "brasil",
+    "type": "famoso"
+  },
+  {
+    "emoji": "🎤",
+    "name": "elis-regina",
+    "country": "brasil",
+    "type": "famoso"
+  },
+  {
+    "emoji": "⚽",
+    "name": "ronaldo",
+    "country": "brasil",
+    "type": "famoso"
+  },
+  {
+    "emoji": "🏀",
+    "name": "oscar-schmidt",
+    "country": "brasil",
+    "type": "famoso"
+  },
+  {
+    "emoji": "🥊",
+    "name": "anderson-silva",
+    "country": "brasil",
+    "type": "famoso"
+  },
+  {
+    "emoji": "🎤",
+    "name": "ivete-sangalo",
+    "country": "brasil",
+    "type": "famoso"
+  },
+  {
+    "emoji": "🎬",
+    "name": "wagner-moura",
+    "country": "brasil",
+    "type": "famoso"
+  },
+  {
+    "emoji": "📺",
+    "name": "silvio-santos",
+    "country": "brasil",
+    "type": "famoso"
+  },
+  {
+    "emoji": "⚽",
+    "name": "ronaldinho",
+    "country": "brasil",
+    "type": "famoso"
+  },
+  {
+    "emoji": "🎤",
+    "name": "chico-buarque",
+    "country": "brasil",
+    "type": "famoso"
+  },
+  {
+    "emoji": "✈️",
+    "name": "santos-dumont",
+    "country": "brasil",
+    "type": "famoso"
+  }
+]

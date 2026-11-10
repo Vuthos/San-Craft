@@ -1,0 +1,182 @@
+[
+  {
+    "emoji": "☀️",
+    "name": "sol",
+    "country": "mundo",
+    "type": "astro"
+  },
+  {
+    "emoji": "🌙",
+    "name": "lua",
+    "country": "mundo",
+    "type": "astro"
+  },
+  {
+    "emoji": "🔴",
+    "name": "marte",
+    "country": "mundo",
+    "type": "astro"
+  },
+  {
+    "emoji": "🪐",
+    "name": "saturno",
+    "country": "mundo",
+    "type": "astro"
+  },
+  {
+    "emoji": "🌍",
+    "name": "júpiter",
+    "country": "mundo",
+    "type": "astro"
+  },
+  {
+    "emoji": "🌌",
+    "name": "via-láctea",
+    "country": "mundo",
+    "type": "astro"
+  },
+  {
+    "emoji": "⚫",
+    "name": "buraco-negro",
+    "country": "mundo",
+    "type": "astro"
+  },
+  {
+    "emoji": "💥",
+    "name": "supernova",
+    "country": "mundo",
+    "type": "astro"
+  },
+  {
+    "emoji": "☄️",
+    "name": "cometa-halley",
+    "country": "mundo",
+    "type": "astro"
+  },
+  {
+    "emoji": "🚀",
+    "name": "apollo-11",
+    "country": "eua",
+    "type": "astro"
+  },
+  {
+    "emoji": "🛰️",
+    "name": "telescópio-hubble",
+    "country": "eua",
+    "type": "astro"
+  },
+  {
+    "emoji": "🔭",
+    "name": "telescópio-james-webb",
+    "country": "eua",
+    "type": "astro"
+  },
+  {
+    "emoji": "👨‍🚀",
+    "name": "neil-armstrong",
+    "country": "eua",
+    "type": "astro"
+  },
+  {
+    "emoji": "👨‍🚀",
+    "name": "buzz-aldrin",
+    "country": "eua",
+    "type": "astro"
+  },
+  {
+    "emoji": "👩‍🚀",
+    "name": "valentina-tereshkova",
+    "country": "rússia",
+    "type": "astro"
+  },
+  {
+    "emoji": "👨‍🚀",
+    "name": "yuri-gagarin",
+    "country": "rússia",
+    "type": "astro"
+  },
+  {
+    "emoji": "🛰️",
+    "name": "estação-espacial",
+    "country": "mundo",
+    "type": "astro"
+  },
+  {
+    "emoji": "🌑",
+    "name": "eclipse",
+    "country": "mundo",
+    "type": "astro"
+  },
+  {
+    "emoji": "✨",
+    "name": "estrela-cadente",
+    "country": "mundo",
+    "type": "astro"
+  },
+  {
+    "emoji": "🌠",
+    "name": "nebulosa-de-órion",
+    "country": "mundo",
+    "type": "astro"
+  },
+  {
+    "emoji": "🪐",
+    "name": "exoplaneta",
+    "country": "mundo",
+    "type": "astro"
+  },
+  {
+    "emoji": "🚀",
+    "name": "nasa",
+    "country": "eua",
+    "type": "astro"
+  },
+  {
+    "emoji": "🌎",
+    "name": "terra-vista-do-espaço",
+    "country": "mundo",
+    "type": "astro"
+  },
+  {
+    "emoji": "🔭",
+    "name": "galileu-galilei",
+    "country": "itália",
+    "type": "astro"
+  },
+  {
+    "emoji": "📐",
+    "name": "albert-einstein",
+    "country": "alemanha",
+    "type": "astro"
+  },
+  {
+    "emoji": "🍎",
+    "name": "isaac-newton",
+    "country": "inglaterra",
+    "type": "astro"
+  },
+  {
+    "emoji": "🌌",
+    "name": "andrômeda",
+    "country": "mundo",
+    "type": "astro"
+  },
+  {
+    "emoji": "☄️",
+    "name": "cinturão-de-asteroides",
+    "country": "mundo",
+    "type": "astro"
+  },
+  {
+    "emoji": "🌕",
+    "name": "lua-cheia",
+    "country": "mundo",
+    "type": "astro"
+  },
+  {
+    "emoji": "🚀",
+    "name": "foguete-saturno-v",
+    "country": "eua",
+    "type": "astro"
+  }
+]
