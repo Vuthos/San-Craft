@@ -1,0 +1,86 @@
+[
+  {
+    "a": "água",
+    "b": "fogo",
+    "result": "vapor",
+    "emoji": "♨️"
+  },
+  {
+    "a": "fogo",
+    "b": "terra",
+    "result": "lava",
+    "emoji": "🌋"
+  },
+  {
+    "a": "água",
+    "b": "terra",
+    "result": "lama",
+    "emoji": "🟤"
+  },
+  {
+    "a": "vento",
+    "b": "água",
+    "result": "chuva",
+    "emoji": "🌧"
+  },
+  {
+    "a": "fogo",
+    "b": "vento",
+    "result": "fumaça",
+    "emoji": "💨"
+  },
+  {
+    "a": "água",
+    "b": "água",
+    "result": "oceano",
+    "emoji": "🌊"
+  },
+  {
+    "a": "fogo",
+    "b": "fogo",
+    "result": "incêndio",
+    "emoji": "🔥"
+  },
+  {
+    "a": "terra",
+    "b": "terra",
+    "result": "montanha",
+    "emoji": "⛰️"
+  },
+  {
+    "a": "vento",
+    "b": "vento",
+    "result": "furacão",
+    "emoji": "🌀"
+  },
+  {
+    "a": "sol",
+    "b": "lua",
+    "result": "eclipse",
+    "emoji": "🌑"
+  },
+  {
+    "a": "fogo",
+    "b": "sol",
+    "result": "supernova",
+    "emoji": "💥"
+  },
+  {
+    "a": "água",
+    "b": "lua",
+    "result": "maré",
+    "emoji": "🌊"
+  },
+  {
+    "a": "meg",
+    "b": "água",
+    "result": "capivara",
+    "emoji": "🦫"
+  },
+  {
+    "a": "san",
+    "b": "meg",
+    "result": "amizade",
+    "emoji": "🤝"
+  }
+]
