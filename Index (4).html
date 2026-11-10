@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>San Craft</title>
+<link rel="icon" href="data:image/svg+xml,[STRIPPED]">
+<style>*{box-sizing:border-box} body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;background:#05010f;color:#eef2ff;background-image:radial-gradient(600px 300px at 10% 0%, rgba(0,255,255,.18), transparent),radial-gradient(600px 300px at 90% 0%, rgba(255,0,255,.18), transparent)}
+header{text-align:center;padding:18px 12px 6px} header h1{margin:0;font-size:42px;color:#00ffff;text-shadow:0 0 8px #00ffff,0 0 18px #00ffff,0 0 32px #ff00ff} header p{margin:6px 0 0;color:#f0abfc;text-shadow:0 0 10px #ff00ff}
+.wrap{max-width:1280px;margin:0 auto;padding:12px}
+.topbar{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin:10px 0}
+.topbar button,.topbar label{background:#0f0f2a;color:#00ffff;border:1px solid #00ffff;padding:8px 12px;border-radius:999px;cursor:pointer;box-shadow:0 0 10px #00ffff, inset 0 0 6px rgba(0,255,255,.4);font-weight:700}
+.main{display:flex;gap:14px;align-items:flex-start}
+.lousa-wrap{flex:1;min-width:0}
+.lousa{position:relative;min-height:650px;background:radial-gradient(circle at 1px 1px, rgba(0,255,255,.25) 1px, transparent 0);background-size:22px 22px;overflow:hidden;background-color:#08001a;border:1px solid rgba(0,255,255,.25);border-radius:14px;box-shadow:0 0 18px rgba(0,255,255,.15)}
+.lousa-controls{position:absolute;top:12px;left:12px;display:flex;gap:6px;z-index:30;background:rgba(5,1,15,.85);padding:4px;border-radius:999px}
+.lousa-controls button{background:#0f0f2a;color:#00ffff;border:1px solid #00ffff;padding:7px 10px;border-radius:999px;cursor:pointer;box-shadow:0 0 8px #00ffff}
+.board-item{position:absolute;display:inline-flex;align-items:center;gap:6px;background:#12002b;border:1px solid #00ffff;padding:7px 10px;border-radius:999px;cursor:grab;white-space:nowrap;user-select:none;max-width:280px;overflow:hidden;text-overflow:ellipsis;box-shadow:0 0 10px #00ffff;color:#fff}
+.board-item.sel{outline:2px solid #ff00ff;box-shadow:0 0 0 3px rgba(255,0,255,.4),0 0 16px #ff00ff}
+.trash{position:absolute;right:12px;bottom:12px;width:44px;height:44px;border-radius:50%;background:#1a0033;border:1px solid #ff00ff;font-size:20px;cursor:pointer;box-shadow:0 0 12px #ff00ff}
+.side{width:330px;flex-shrink:0;background:#0d0022;border:1px solid #a855f7;border-radius:14px;padding:12px;position:sticky;top:12px;box-shadow:0 0 16px rgba(168,85,247,.35)}
+.side h3{margin:0 0 8px;color:#00ffff;text-shadow:0 0 8px #00ffff} .side input{width:100%;padding:9px 10px;border-radius:999px;border:1px solid #00ffff;background:#05010f;color:#fff}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px;max-height:560px;overflow:auto}
+.chip{display:inline-flex;align-items:center;gap:6px;background:#12002b;border:1px solid #ff00ff;padding:6px 8px;border-radius:999px;cursor:grab;user-select:none;white-space:nowrap;max-width:100%;box-shadow:0 0 8px rgba(255,0,255,.4)}
+.chip button{background:transparent;border:none;color:#fda4af;cursor:pointer;font-weight:900}
+.login{background:#0d0022;border:1px solid #a855f7;border-radius:14px;padding:12px;margin-top:14px;box-shadow:0 0 14px rgba(168,85,247,.3)}
+.login input{width:100%;padding:9px;border-radius:10px;border:1px solid #00ffff;background:#05010f;color:#fff;margin:5px 0}
+.login button{width:100%;padding:10px;border-radius:999px;border:none;background:linear-gradient(90deg,#00ffff,#ff00ff);color:#05010f;font-weight:900;cursor:pointer;margin-top:6px;box-shadow:0 0 12px #ff00ff}
+.row{display:flex;gap:14px;margin-top:14px;flex-wrap:wrap} .card{flex:1;min-width:260px;background:#0d0022;border:1px solid #a855f7;border-radius:14px;padding:12px;box-shadow:0 0 12px rgba(168,85,247,.25)}
+.diario-head{display:flex;justify-content:space-between;align-items:center}
+.diario{max-height:220px;overflow:auto;margin-top:8px} .diario div{padding:6px 0;border-bottom:1px solid #2e1065;font-size:14px}
+footer{color:#c084fc;font-size:12px;text-align:center;padding:16px}
+.hint{font-size:12px;color:#a5b4fc;text-align:center}
+@media(max-width:900px){.main{flex-direction:column}.side{width:100%;position:static}.lousa{min-height:480px}}
+</style>
+</head>
+<body>
+<header><h1>🧪 San Craft</h1><p>Combine, descubra e invente seu próprio universo de elementos! ❤️</p><div id="dbStatus" style="font-size:12px;color:#a5b4fc;margin-top:4px">📂 Base: Água, Fogo, Terra, Ar, Energia, Vida • Lousa começa com os 6 lado a lado • Outros vêm dos .json na raiz</div><div style="font-size:13px;color:#a5b4fc;margin-top:6px">Idioma Base: Português do Brasil 🇧🇷 | Mundo: Todos os Países 🌍</div></header>
+<div class="wrap">
+<div class="topbar">
+<button id="toggleHallu">🌌 Modo Alucinatório: ON</button>
+<button id="btnSaveSlot1">💾 Salvar Slot 1</button><button id="btnSaveSlot2">💾 Salvar Slot 2</button><button id="btnSaveSlot3">💾 Salvar Slot 3</button>
+    <button id="exportFusoes">📥 Baixar Fusões .json</button>
+</div>
+<div class="main">
+<div class="lousa-wrap">
+<div id="lousa" class="lousa">
+<div class="lousa-controls">
+<button id="zoomOut">-</button><button id="zoomLabel">100%</button><button id="zoomIn">+</button><button id="zoomReset">Reset</button><button id="expandBtn">⛶ Expandir</button>
+</div>
+<div id="boardInner" style="position:absolute;inset:0;top:48px;transform-origin:0 0"></div>
+<div style="position:absolute;top:46px;left:50%;transform:translateX(-50%);font-size:12px;color:#94a3b8">Arraste um sobre o outro pra fundir</div>
+<div style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);color:#64748b;font-size:13px" id="emptyMsg">Arraste um elemento da coleção para cá</div>
+<button class="trash" id="trashBtn" title="Limpar lousa">🗑️</button>
+<div id="floatBar" style="display:none;position:absolute;bottom:60px;left:50%;transform:translateX(-50%);background:#0f172a;border:1px solid #334155;padding:8px;border-radius:999px;gap:6px;z-index:20">
+<button id="btnCopy">Copiar</button><button id="btnDup">Duplicar</button><button id="btnDel">Deletar</button>
+</div>
+</div>
+<div class="hint">Atalhos: clique pra selecionar • Botão direito = deletar • Ctrl+C copiar • Ctrl+V colar • Ctrl+D duplicar • Delete apagar • Ctrl + rodinha = zoom</div>
+</div>
+<aside class="side">
+<h3>Seus Elementos</h3>
+<input id="search" placeholder="Buscar por emoji, palavra ou sílaba... Ex.: 🌸, ta, sakura">
+<div id="count" style="font-size:12px;color:#94a3b8;margin-top:6px"></div>
+<div id="chips" class="chips"></div>
+<button id="restoreBase" style="margin-top:10px;width:100%;padding:8px;border-radius:999px;background:#0f172a;color:#fff;border:1px solid #334155;cursor:pointer">↩ Restaurar base</button>
+<div style="margin-top:10px;font-size:12px;color:#94a3b8">Filtro: <select id="filterCountry"><option>Todos os Países</option><option>Brasil</option><option>Japão</option><option>México</option><option>França</option><option>Itália</option><option>Egito</option></select></div>
+</aside>
+</div>
+<div class="row">
+<div class="card login">
+<h3 id="loginTitle">Seu Apelido</h3>
+<input id="nome" placeholder="Apelido pra jogar  Ex.: San">
+<button id="btnJogar">Jogar</button>
+<div id="userInfo" style="margin-top:8px;font-size:13px"></div>
+<button id="btnSair" style="display:none;background:#334155">Trocar apelido</button>
+<div id="creatorLab" style="display:none;margin-top:10px;border-top:1px solid #334155;padding-top:10px">
+<b>👑 Laboratório do Criador</b><br>
+<input id="newName" placeholder="Nome do novo elemento"><input id="newEmoji" placeholder="Emoji  Ex.: 🧪"><button id="btnCreateEl" style="background:#059669">Criar elemento</button>
+</div>
+</div>
+<div class="card">
+<div class="diario-head"><b>📜 Diário de descobertas (<span id="diarioCount">0</span>)</b><button id="toggleDiario">— Minimizar</button></div>
+<div id="diarioBox"><div id="diario" class="diario"></div></div>
+</div>
+<div class="card">
+<b>💾 Saves</b><div style="font-size:13px;color:#94a3b8;margin-top:6px">Slots ficam nesta sessão. Para guardar pra sempre, use Baixar Save.</div>
+<button id="btnDownload" style="margin-top:8px;padding:8px 10px;border-radius:999px;background:#0f172a;color:#fff;border:1px solid #334155;cursor:pointer">⬇ Baixar Save (JSON)</button>
+<button id="btnClearSave" style="padding:8px 10px;border-radius:999px;background:#0f172a;color:#fff;border:1px solid #334155;cursor:pointer">Apagar Save</button>
+<div style="margin-top:8px;font-size:12px">Slot 1: <input id="slotName1" value="Slot 1" style="width:110px;padding:4px;border-radius:8px;background:#0f172a;color:#fff;border:1px solid #334155"> <button onclick="loadSlot(1)">Carregar</button> <button onclick="clearSlot(1)">Apagar</button></div>
+<div style="margin-top:4px;font-size:12px">Slot 2: <input id="slotName2" value="Slot 2" style="width:110px;padding:4px;border-radius:8px;background:#0f172a;color:#fff;border:1px solid #334155"> <button onclick="loadSlot(2)">Carregar</button> <button onclick="clearSlot(2)">Apagar</button></div>
+<div style="margin-top:4px;font-size:12px">Slot 3: <input id="slotName3" value="Slot 3" style="width:110px;padding:4px;border-radius:8px;background:#0f172a;color:#fff;border:1px solid #334155"> <button onclick="loadSlot(3)">Carregar</button> <button onclick="clearSlot(3)">Apagar</button></div>
+</div>
+</div>
+<footer>San Craft — laboratório por hora, jogo em breve. IA com filtro +18 sempre ligado. Criações são invenções do jogo.</footer>
+</div>
+<script>
+const BANNED=["sexo","porno","porn","tesao","puta","caralho","foder","bunda","pinto","xota","vagina","penis","orgasmo","masturba","gozar","cuzao","kenga","safado"];
+function hasBanned(s){let n=s.toLowerCase();return BANNED.some(w=>n.includes(w))}
+function norm(s){return s.normalize("NFD").replace(/[̀-ͯ]/g,"").toLowerCase()}
+// BASE FIXA: todo mundo começa com esses 6. Lousa começa com os 6 lado a lado (board=[]). Outros vêm dos .json.
+const BASE_ELEMENTS=[
+{id:"agua",emoji:"💧",name:"Água",country:"Brasil"},
+{id:"fogo",emoji:"🔥",name:"Fogo",country:"Brasil"},
+{id:"terra",emoji:"🌍",name:"Terra",country:"Brasil"},
+{id:"ar",emoji:"💨",name:"Ar",country:"Brasil"},
+{id:"energia",emoji:"⚡",name:"Energia",country:"Brasil"},
+{id:"vida",emoji:"🌱",name:"Vida",country:"Brasil"},
+];
+let elements=[...BASE_ELEMENTS];
+let board=[];
+function criarLousaInicial(){
+  // Coloca os 6 base lado a lado na lousa, prontos pra fundir
+  let xs = [60, 230, 400, 570, 740, 910];
+  let y = 120;
+  return BASE_ELEMENTS.map((el,i)=>({
+    uid: Date.now()+i+Math.random(),
+    elId: el.id,
+    emoji: el.emoji,
+    name: el.name,
+    x: xs[i] || (60 + i*170),
+    y: y
+  }));
+}
+board = criarLousaInicial(); let diary=[]; let selected=null; let clipboard=null; let hallu=true; let zoom=100; let currentUser=null;
+const curated={
+"Água|Fogo":"♨-Vapor",
+"Água|Terra":"🌍-Nova-Terra",
+"Água|Água":"🌊-Oceano",
+"Fogo|Fogo":"🔥-Incêndio",
+"Terra|Terra":"⛰️-Montanha",
+"Ar|Ar":"🌪️-Furacão",
+"Água|Ar":"🌧️-Chuva",
+"Ar|Chuva":"🌬️-Vendaval",
+"Água|Planta":"🌸-Vitória-Régia",
+"Meg|Água":"🐶-Banho-de-Cachorro",
+"Fogo|Meg":"🌭-Cachorro-Quente",
+"San|Oceano":"🏖️-Praia-do-San",
+"Energia|Vida":"✨-Ser",
+"Energia|Água":"💡-Eletricidade",
+"Energia|Fogo":"⚡-Raio",
+"Vida|Terra":"🌳-Floresta",
+"Vida|Água":"🐟-Peixe",
+"Ar|Terra":"🌫️-Poeira",
+"Ar|Fogo":"💨-Fumaça",
+"Água|Japão":"🌊-Tsunami",
+"Terra|Egito":"🔺-Pirâmide",
+"Ar|Vida":"🌸-Flor",
+"Fogo|Carne":"🥩-Churrasco",
+};
+function splitCamel(s){
+  return (s||"").replace(/([a-zà-ÿ])([A-ZÀ-Ý])/g, "$1-$2").replace(/([A-ZÀ-Ý]+)([A-ZÀ-Ý][a-zà-ÿ])/g, "$1-$2");
+}
+function baseWord(full){
+  let clean = splitCamel(full||"");
+  clean = clean.replace(/[^A-Za-zÀ-ÿ\u4e00-\u9fff\u3040-\u30ff\-]/g, "");
+  let parts = clean.split("-").filter(Boolean);
+  if(parts.length===0) return "Estrela";
+  let last = parts[parts.length-1];
+  if(["Me","Va","Ve","SanVa","SanVapor"].includes(last) && parts.length>1) last = parts[parts.length-2];
+  // Se última for corte tipo "VaporSanVa" (sem hífen), pega só Vapor
+  if(last.length>12) last = last.slice(0,12);
+  return last;
+}
+function cleanName(raw){
+  let n = splitCamel(raw||"");
+  n = n.replace(/[\u{1F000}-\u{1FAFF}\u{2600}-\u{27BF}\u{2B00}-\u{2BFF}\u{FE0F}]/gu, "");
+  n = n.replace(/^[\s\-]+/, "").replace(/[\s\-]+$/,"");
+  n = n.replace(/\s+/g,"-").replace(/-{2,}/g,"-");
+  while(/Nova-Nova/i.test(n)){ n = n.replace(/Nova-Nova-?/gi, "Nova-"); }
+  // Remove Vapor-Vapor, San-San etc
+  let parts = n.split("-").filter(Boolean);
+  // MAX 3 partes: oriental + 2 palavras. Corta resto.
+  if(parts.length>3){
+    let isOriental = /^[\u4e00-\u9fff\u3040-\u30ff]$/.test(parts[0]);
+    if(isOriental) parts = [parts[0], parts[1], parts[2]];
+    else parts = [parts[0], parts[1]];
+  }
+  let dedup=[];
+  for(let p of parts){ if(!dedup.find(x=>x.toLowerCase()===p.toLowerCase())) dedup.push(p); }
+  n = dedup.join("-");
+  if(/^Nova-/i.test(n)){ let rest = n.slice(5).replace(/^Nova-?/i,""); n = "Nova-" + rest; }
+  if(n.length>50) n=n.slice(0,50).replace(/-$/,"");
+  if(!n) n="Estrela-Boa";
+  return n;
+}
+function fmt(name){
+  let n = cleanName(name);
+  if(hasBanned(n)) n="Estrela-Boa";
+  return n;
+}
+
+const FAUNA_FLORA=[
+{emoji:"🐆",name:"Onça-Pintada",country:"Brasil",continent:"América do Sul",type:"fauna"},
+{emoji:"🦜",name:"Arara",country:"Brasil",continent:"América do Sul",type:"fauna"},
+{emoji:"🦥",name:"Bicho-Preguiça",country:"Brasil",continent:"América do Sul",type:"fauna"},
+{emoji:"🐊",name:"Jacaré-Açu",country:"Brasil",continent:"América do Sul",type:"fauna"},
+{emoji:"🌸",name:"Vitória-Régia",country:"Brasil",continent:"América do Sul",type:"flora"},
+{emoji:"🦅",name:"Águia-Careca",country:"EUA",continent:"América do Norte",type:"fauna"},
+{emoji:"🐻",name:"Urso-Pardo",country:"EUA",continent:"América do Norte",type:"fauna"},
+{emoji:"🐺",name:"Lobo",country:"Canadá",continent:"América do Norte",type:"fauna"},
+{emoji:"🦬",name:"Bisão",country:"EUA",continent:"América do Norte",type:"fauna"},
+{emoji:"🌵",name:"Cacto",country:"México",continent:"América do Norte",type:"flora"},
+{emoji:"🦁",name:"Leão",country:"Quênia",continent:"África",type:"fauna"},
+{emoji:"🐘",name:"Elefante-Africano",country:"Quênia",continent:"África",type:"fauna"},
+{emoji:"🦒",name:"Girafa",country:"Quênia",continent:"África",type:"fauna"},
+{emoji:"🦓",name:"Zebra",country:"Quênia",continent:"África",type:"fauna"},
+{emoji:"🌳",name:"Baobá",country:"Madagascar",continent:"África",type:"flora"},
+{emoji:"🦊",name:"Raposa",country:"Inglaterra",continent:"Europa",type:"fauna"},
+{emoji:"🦌",name:"Cervo",country:"Alemanha",continent:"Europa",type:"fauna"},
+{emoji:"🦉",name:"Coruja",country:"França",continent:"Europa",type:"fauna"},
+{emoji:"🌳",name:"Carvalho",country:"Inglaterra",continent:"Europa",type:"flora"},
+{emoji:"🐼",name:"Panda",country:"China",continent:"Ásia",type:"fauna"},
+{emoji:"🐅",name:"Tigre",country:"Índia",continent:"Ásia",type:"fauna"},
+{emoji:"🐘",name:"Elefante-Asiático",country:"Índia",continent:"Ásia",type:"fauna"},
+{emoji:"🌸",name:"Sakura",country:"Japão",continent:"Ásia",type:"flora"},
+{emoji:"🎋",name:"Bambu",country:"China",continent:"Ásia",type:"flora"},
+{emoji:"🦘",name:"Canguru",country:"Austrália",continent:"Oceania",type:"fauna"},
+{emoji:"🐨",name:"Coala",country:"Austrália",continent:"Oceania",type:"fauna"},
+{emoji:"🦆",name:"Ornitorrinco",country:"Austrália",continent:"Oceania",type:"fauna"},
+{emoji:"🌿",name:"Eucalipto",country:"Austrália",continent:"Oceania",type:"flora"},
+{emoji:"🐧",name:"Pinguim-Imperador",country:"Antártida",continent:"Antártida",type:"fauna"},
+{emoji:"🦭",name:"Foca",country:"Antártida",continent:"Antártida",type:"fauna"},
+{emoji:"🐋",name:"Baleia-Azul",country:"Oceano",continent:"Oceano",type:"fauna"},
+{emoji:"🐢",name:"Tartaruga-Marinha",country:"Oceano",continent:"Oceano",type:"fauna"},
+{emoji:"🦑",name:"Polvo",country:"Oceano",continent:"Oceano",type:"fauna"},
+{emoji:"🪸",name:"Coral",country:"Oceano",continent:"Oceano",type:"flora"},
+];
+
+const FAMOSOS_BRASIL=[
+{emoji:"⚽",name:"Pelé",country:"Brasil",type:"famoso"},
+{emoji:"⚽",name:"Neymar",country:"Brasil",type:"famoso"},
+{emoji:"🏎️",name:"Ayrton-Senna",country:"Brasil",type:"famoso"},
+{emoji:"🎤",name:"Anitta",country:"Brasil",type:"famoso"},
+{emoji:"🎤",name:"Roberto-Carlos",country:"Brasil",type:"famoso"},
+{emoji:"📚",name:"Machado-de-Assis",country:"Brasil",type:"famoso"},
+{emoji:"🎨",name:"Tarsila-do-Amaral",country:"Brasil",type:"famoso"},
+{emoji:"⚽",name:"Marta",country:"Brasil",type:"famoso"},
+{emoji:"🎭",name:"Fernanda-Montenegro",country:"Brasil",type:"famoso"},
+{emoji:"🎸",name:"Raul-Seixas",country:"Brasil",type:"famoso"},
+{emoji:"🎤",name:"Elis-Regina",country:"Brasil",type:"famoso"},
+{emoji:"⚽",name:"Ronaldo",country:"Brasil",type:"famoso"},
+{emoji:"🏀",name:"Oscar-Schmidt",country:"Brasil",type:"famoso"},
+{emoji:"🥊",name:"Anderson-Silva",country:"Brasil",type:"famoso"},
+{emoji:"🎤",name:"Ivete-Sangalo",country:"Brasil",type:"famoso"},
+{emoji:"🎬",name:"Wagner-Moura",country:"Brasil",type:"famoso"},
+{emoji:"📺",name:"Silvio-Santos",country:"Brasil",type:"famoso"},
+{emoji:"⚽",name:"Ronaldinho",country:"Brasil",type:"famoso"},
+{emoji:"🎤",name:"Chico-Buarque",country:"Brasil",type:"famoso"},
+{emoji:"✈️",name:"Santos-Dumont",country:"Brasil",type:"famoso"},
+];
+const ASTRONOMIA=[
+{emoji:"☀️",name:"Sol",country:"Mundo",type:"astro"},
+{emoji:"🌙",name:"Lua",country:"Mundo",type:"astro"},
+{emoji:"🔴",name:"Marte",country:"Mundo",type:"astro"},
+{emoji:"🪐",name:"Saturno",country:"Mundo",type:"astro"},
+{emoji:"🌍",name:"Júpiter",country:"Mundo",type:"astro"},
+{emoji:"🌌",name:"Via-Láctea",country:"Mundo",type:"astro"},
+{emoji:"⚫",name:"Buraco-Negro",country:"Mundo",type:"astro"},
+{emoji:"💥",name:"Supernova",country:"Mundo",type:"astro"},
+{emoji:"☄️",name:"Cometa-Halley",country:"Mundo",type:"astro"},
+{emoji:"🚀",name:"Apollo-11",country:"EUA",type:"astro"},
+{emoji:"🛰️",name:"Telescópio-Hubble",country:"EUA",type:"astro"},
+{emoji:"🔭",name:"Telescópio-James-Webb",country:"EUA",type:"astro"},
+{emoji:"👨‍🚀",name:"Neil-Armstrong",country:"EUA",type:"astro"},
+{emoji:"👨‍🚀",name:"Buzz-Aldrin",country:"EUA",type:"astro"},
+{emoji:"👩‍🚀",name:"Valentina-Tereshkova",country:"Rússia",type:"astro"},
+{emoji:"👨‍🚀",name:"Yuri-Gagarin",country:"Rússia",type:"astro"},
+{emoji:"🛰️",name:"Estação-Espacial",country:"Mundo",type:"astro"},
+{emoji:"🌑",name:"Eclipse",country:"Mundo",type:"astro"},
+{emoji:"✨",name:"Estrela-Cadente",country:"Mundo",type:"astro"},
+{emoji:"🌠",name:"Nebulosa-de-Órion",country:"Mundo",type:"astro"},
+{emoji:"🪐",name:"Exoplaneta",country:"Mundo",type:"astro"},
+{emoji:"🚀",name:"NASA",country:"EUA",type:"astro"},
+{emoji:"🌎",name:"Terra-Vista-do-Espaço",country:"Mundo",type:"astro"},
+{emoji:"🔭",name:"Galileu-Galilei",country:"Itália",type:"astro"},
+{emoji:"📐",name:"Albert-Einstein",country:"Alemanha",type:"astro"},
+{emoji:"🍎",name:"Isaac-Newton",country:"Inglaterra",type:"astro"},
+{emoji:"🌌",name:"Andrômeda",country:"Mundo",type:"astro"},
+{emoji:"☄️",name:"Cinturão-de-Asteroides",country:"Mundo",type:"astro"},
+{emoji:"🌕",name:"Lua-Cheia",country:"Mundo",type:"astro"},
+{emoji:"🚀",name:"Foguete-Saturno-V",country:"EUA",type:"astro"},
+];
+
+// Carrega palavras de arquivos externos (GitHub) - se existir, usa eles. Se nao, usa o que ja esta no codigo.
+async 
+
+// tryFetch global - tenta buscar .json na raiz, retorna null se falhar
+async function tryFetch(urls){
+  for(let u of urls){
+    try{
+      let r = await fetch(u);
+      if(r.ok){
+        let j = await r.json();
+        if(Array.isArray(j) && j.length>0) return j;
+        if(j && typeof j==="object") return j;
+      }
+    }catch(e){}
+  }
+  return null;
+}
+
+// --- LOADER GENERICO DO SAN: lê todo .json da raiz, sem pasta data/ ---
+async function carregarTodosJsons(){
+  // 1) Tenta ler arquivos.json - se existir, ele lista todos os .json que o San criou
+  let listaExtra = [];
+  try{
+    let manifest = await tryFetch(["arquivos.json","lista.json","manifest.json"]);
+    if(manifest){
+      if(Array.isArray(manifest)) listaExtra = manifest;
+      else if(manifest.arquivos && Array.isArray(manifest.arquivos)) listaExtra = manifest.arquivos;
+      else if(manifest.files && Array.isArray(manifest.files)) listaExtra = manifest.files;
+    }
+  }catch(e){}
+  // 2) Lista base - todo arquivo .json que o San criar, bota aqui ou no arquivos.json
+  let candidatos = ["fusoes.json","combinacoes.json","fauna.json","famosos.json","astronomia.json","receitas.json","palavras.json","elementos.json","comidas.json","animais.json","plantas.json","mitologia.json","jogos.json","filmes.json","series.json","musicas.json","lugares.json","objetos.json","profissoes.json","esportes.json"];
+  // Junta com listaExtra, sem duplicar
+  for(let f of listaExtra){ if(typeof f==="string" && f.endsWith(".json") && !candidatos.includes(f)) candidatos.push(f); }
+  // 3) Tenta carregar cada um
+  for(let arquivo of candidatos){
+    try{
+      let dados = await tryFetch([arquivo]);
+      if(!dados) continue;
+      // Se for array, classifica: tem a+b = combinação, senão é pool de palavras
+      let arr = Array.isArray(dados) ? dados : (dados.combinacoes || dados.fusoes || dados.itens || dados.palavras || null);
+      if(!arr) continue;
+      let qtdComb=0, qtdPool=0;
+      for(let item of arr){
+        if(item && item.a && item.b && item.name){
+          // É combinação: a + b = resultado
+          COMBINACOES.push(item);
+          qtdComb++;
+        } else if(item && item.emoji && item.name){
+          // É palavra solta pro pool
+          CULTURA.push(item);
+          qtdPool++;
+        }
+      }
+      if(qtdComb>0 || qtdPool>0){
+        EXTERNAL_LOADED=true;
+        console.log("Carregou", arquivo, "comb:", qtdComb, "pool:", qtdPool);
+      }
+    }catch(e){}
+  }
+  // Atualiza selo
+  let selo = document.getElementById("seloDados");
+  if(selo && EXTERNAL_LOADED){
+    selo.textContent = "📂 Lendo .json da raiz: " + COMBINACOES.length + " fusões + " + CULTURA.length + " palavras";
+  }
+  window.COMBINACOES = COMBINACOES;
+  window.CULTURA = CULTURA;
+}
+
+async function loadExternalData(){ await carregarTodosJsons(); }
+
+
+let EXTERNAL_LOADED=false;
+let COMBINACOES=[]; // receitas exatas do San
+let ONLY_JSON=true; // IA alucina SOMENTE nos .json que o San criar
+const CULTURA = [...FAUNA_FLORA, ...FAMOSOS_BRASIL, ...ASTRONOMIA];
+loadExternalData(); // <-- chama o carregador dos .json do Vercel
+
+
+
+// --- CURADORIA DO SAN: receita exata tem prioridade total ---
+function normNome(s){ return (s||"").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"").trim(); }
+function buscarReceitaExata(aName,bName){
+  if(!COMBINACOES || COMBINACOES.length===0) return null;
+  let na=normNome(aName), nb=normNome(bName);
+  for(let r of COMBINACOES){
+    let ra=normNome(r.a), rb=normNome(r.b);
+    if((ra===na && rb===nb) || (ra===nb && rb===na)){
+      return {emoji:r.emoji, name:r.name, country:r.country||"brasil"};
+    }
+  }
+  return null;
+}
+
+function fuse(a,b){
+  // 1º PRIORIDADE: receita exata de qualquer .json da raiz do .json do San - sem alucinar, sem sortear
+  let receita = buscarReceitaExata(a.name, b.name);
+  if(receita) return receita;
+
+  let key=[a.name,b.name].sort().join("|");
+  let key2=[b.name,a.name].join("|");
+  let res = curated[key]||curated[key2];
+  if(res){
+    let m = res.split("-");
+    let em = m[0];
+    let txtName = cleanName(m.slice(1).join("-"));
+    return {emoji:em, name:txtName, country:"Brasil"};
+  }
+  if((a.name==="Água"&&b.name==="Planta")||(a.name==="Planta"&&b.name==="Água")) return {emoji:"🌸",name:"Vitória-Régia",country:"Brasil"};
+  if(hallu){
+    // MODO SÓ-JSON: IA NÃO inventa palavra nova, só pega dos .json do San
+    if(ONLY_JSON && EXTERNAL_LOADED && CULTURA.length>0){
+      let pool = CULTURA;
+      // Se pais tem água/fogo etc, filtra um pouco, mas SEMPRE dentro dos .json
+      let aLow=(a.name||"").toLowerCase(), bLow=(b.name||"").toLowerCase();
+      if(aLow.includes("fogo")||bLow.includes("fogo")||aLow.includes("ar")||bLow.includes("ar")){
+        let astroPool = CULTURA.filter(x=>x.type==="astro");
+        if(astroPool.length>0 && Math.random()<0.6) pool = astroPool;
+      }
+      if(aLow.includes("terra")||bLow.includes("terra")){
+        let faunaPool = CULTURA.filter(x=>x.type==="fauna"||x.type==="flora");
+        if(faunaPool.length>0 && Math.random()<0.5) pool = faunaPool;
+      }
+      let pick = pool[Math.floor(Math.random()*pool.length)];
+      return {emoji:pick.emoji, name:pick.name, country:pick.country};
+    }
+    let syms=["龍","桜","土","水","風","火","Ω","∞"];
+    let s=syms[Math.floor(Math.random()*syms.length)];
+    // Quebra-loop: se os pais são só San/Meg/Chuva/Terra/Vento/Místico, injeta fauna/flora nova
+    let loopWords=["san","meg","chuva","terra","ar","místico","mistico","nova"];
+    let aLow=(a.name||"").toLowerCase(), bLow=(b.name||"").toLowerCase();
+    let isLoop = loopWords.some(w=>aLow.includes(w)) && loopWords.some(w=>bLow.includes(w));
+    if(isLoop && Math.random()<0.75){
+      // Escolhe de CULTURA: fauna/flora + famosos Brasil + astronomia NASA - sem apagar o que já tinha
+      let pool = CULTURA;
+      // Se tem Fogo/Vento, prefere astronomia; se tem Terra/Água, prefere fauna
+      if(aLow.includes("fogo")||bLow.includes("fogo")||aLow.includes("ar")||bLow.includes("ar")){
+        if(Math.random()<0.55) pool = ASTRONOMIA;
+      }
+      if(aLow.includes("terra")||bLow.includes("terra")||aLow.includes("água")||bLow.includes("agua")){
+        if(Math.random()<0.35) pool = FAUNA_FLORA;
+      }
+      if(Math.random()<0.20) pool = FAMOSOS_BRASIL;
+      let pick = pool[Math.floor(Math.random()*pool.length)];
+      let cand = cleanName(pick.name);
+      // Se pais têm Água, prefere animal aquático; se Terra, terrestre; se Vento, ave
+      if(aLow.includes("água")||bLow.includes("água")||aLow.includes("agua")||bLow.includes("agua")){
+        let aqua = FAUNA_FLORA.filter(x=>["Baleia-Azul","Tartaruga-Marinha","Polvo","Coral","Jacaré-Açu","Pinguim-Imperador"].includes(x.name));
+        pick = aqua[Math.floor(Math.random()*aqua.length)];
+        cand = cleanName(pick.name);
+      }
+      return {emoji:pick.emoji, name:cand, country:pick.country, continent:pick.continent};
+    }
+    // 20% das vezes, mesmo fora do loop, injeta cultura (astro/famoso/fauna) pra não ficar só San-Meg
+    if(Math.random()<0.20){
+      let pick2 = CULTURA[Math.floor(Math.random()*CULTURA.length)];
+      return {emoji:pick2.emoji, name:cleanName(pick2.name), country:pick2.country};
+    }
+    let emojis=["🌟","☀️","🌸","🔥","💧","🌊","🌌"];
+    let em = emojis[Math.floor(Math.random()*emojis.length)];
+    // NÃO cola nome inteiro. Pega só 1 palavra-base de cada pai.
+    let w1 = baseWord(a.name);
+    let w2 = baseWord(b.name);
+    if(w1.toLowerCase()===w2.toLowerCase()){ w2 = ["Cósmico","Voador","Brilhante","Místico"][Math.floor(Math.random()*4)]; }
+    let base = [w1,w2].filter(Boolean).join("-");
+    let cand = cleanName(base);
+    if(s && Math.random()<0.35) cand = s+"-"+cand;
+    cand = cleanName(cand);
+    if(hasBanned(cand)) cand="Estrela-Boa";
+    return {emoji:em, name:cand, country:"Mundo"};
+  }
+  if(ONLY_JSON && CULTURA.length>0){ let p=CULTURA[Math.floor(Math.random()*CULTURA.length)]; return {emoji:p.emoji, name:p.name, country:p.country}; }
+  let cand2 = cleanName("Nova-"+baseWord(a.name));
+  return {emoji:"🌟",name:cand2,country:"Brasil"};
+}
+function renderElements(){
+  // Se a coleção ficou vazia (você apagou tudo no X), volta os 6 base sozinho
+  if(!elements || elements.length===0){
+    elements = [...BASE_ELEMENTS];
+  }
+
+  let q=document.getElementById("search").value||"";
+  let nq=norm(q);
+  let filt=document.getElementById("filterCountry").value;
+  let list=elements.filter(e=>{
+    if(filt!=="Todos os Países" && e.country!==filt && e.country!=="Mundo" && e.country!=="Brasil") return false;
+    if(!nq) return true;
+    return norm(e.name).includes(nq) || norm(e.emoji).includes(nq) || e.name.toLowerCase().includes(q.toLowerCase());
+  });
+  document.getElementById("count").textContent="Mostrando "+list.length+" de "+elements.length;
+  let c=document.getElementById("chips"); c.innerHTML="";
+  list.forEach(e=>{
+    let d=document.createElement("div"); d.className="chip"; d.draggable=true;
+    d.innerHTML="<span>"+e.emoji+"</span><span>"+e.name+"</span><button>✕</button>";
+    d.querySelector("button").onclick=(ev)=>{ev.stopPropagation(); if(d.dataset.arm){deleteElement(e.id)} else {d.dataset.arm="1"; d.querySelector("button").textContent="?"; setTimeout(()=>{d.dataset.arm=""; d.querySelector("button").textContent="✕"},2000)}};
+    d.onclick=()=>{addToBoard(e)};
+    // Botão direito no chip = deletar da coleção
+    d.oncontextmenu=(ev)=>{ev.preventDefault(); ev.stopPropagation(); if(confirm("Deletar "+e.emoji+" "+e.name+" da coleção?")) deleteElement(e.id);};
+    d.ondragstart=(ev)=>{ev.dataTransfer.setData("text/plain",e.id)};
+    c.appendChild(d);
+  });
+}
+function deleteElement(id){elements=elements.filter(x=>x.id!==id); board=board.filter(x=>x.elId!==id); // Garante que ao abrir, a coleção tem os 6 e a lousa tem os 6 lado a lado
+if(!elements || elements.length===0) elements = [...BASE_ELEMENTS];
+if(!board || board.length===0) board = criarLousaInicial();
+renderElements(); renderBoard();}
+function addToBoard(el){
+  // Spawna no centro da lousa, não no canto superior esquerdo
+  let lousaEl=document.getElementById("lousa");
+  let r=lousaEl?lousaEl.getBoundingClientRect():{width:800,height:650};
+  let cx=(r.width/2)/(zoom/100), cy=(r.height/2)/(zoom/100);
+  let x=Math.max(20, cx-60+Math.random()*120), y=Math.max(60, cy-20+Math.random()*80);
+  // Clampa dentro da lousa
+  x=Math.min(x, Math.max(20, (r.width/(zoom/100))-170));
+  y=Math.min(y, Math.max(60, (r.height/(zoom/100))-60));
+  let item={uid:Date.now()+Math.random(), elId:el.id, emoji:el.emoji, name:el.name, x,y};
+  board.push(item); renderBoard(); document.getElementById("emptyMsg").style.display=board.length?"none":"block";
+}
+function renderBoard(){
+  let inner=document.getElementById("boardInner"); inner.innerHTML=""; inner.style.transform="scale("+(zoom/100)+")";
+  board.forEach(item=>{
+    let d=document.createElement("div"); d.className="board-item"+(selected===item.uid?" sel":""); d.style.left=item.x+"px"; d.style.top=item.y+"px";
+    d.textContent=item.emoji+" "+item.name;
+    // Trava: se item sem posição ou NaN, joga pro centro (evita canto superior esquerdo)
+    if(typeof item.x!=="number"||isNaN(item.x)||item.x<0) item.x=300;
+    if(typeof item.y!=="number"||isNaN(item.y)||item.y<0) item.y=280;
+    item.x=Math.max(10, Math.min(item.x, 900));
+    item.y=Math.max(56, Math.min(item.y, 600));
+    d.onclick=(e)=>{e.stopPropagation(); selected=item.uid; renderBoard(); document.getElementById("floatBar").style.display="flex";};
+    // Botão direito = deletar da lousa
+    d.oncontextmenu=(e)=>{e.preventDefault(); e.stopPropagation(); board=board.filter(x=>x.uid!==item.uid); if(selected===item.uid){selected=null; document.getElementById("floatBar").style.display="none";} renderBoard();};
+    // drag
+    let sx,sy,ox,oy;
+    d.onpointerdown=(e)=>{sx=e.clientX; sy=e.clientY; ox=item.x; oy=item.y; d.setPointerCapture(e.pointerId)};
+    d.onpointermove=(e)=>{if(e.buttons){item.x=ox+(e.clientX-sx)/(zoom/100); item.y=oy+(e.clientY-sy)/(zoom/100); d.style.left=item.x+"px"; d.style.top=item.y+"px";}};
+    d.onpointerup=(e)=>{
+      // if outside lousa, delete
+      let r=document.getElementById("lousa").getBoundingClientRect();
+      if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom){board=board.filter(x=>x.uid!==item.uid); renderBoard(); return;}
+      // fusion check
+      let other=board.find(o=>o.uid!==item.uid && Math.hypot(o.x-item.x,o.y-item.y)<60);
+      if(other){
+        let a=elements.find(x=>x.id===item.elId)||{name:item.name,emoji:item.emoji};
+        let b=elements.find(x=>x.id===other.elId)||{name:other.name,emoji:other.emoji};
+        let res=fuse(a,b);
+        // add to collection if new
+        if(!elements.find(x=>x.name===res.name)){
+          let nid="el"+Date.now();
+          elements.push({id:nid,emoji:res.emoji,name:res.name,country:res.country});
+        }
+        board=board.filter(x=>x.uid!==item.uid && x.uid!==other.uid);
+        let nx=(item.x+other.x)/2, ny=(item.y+other.y)/2;
+        let newEl=elements.find(x=>x.name===res.name);
+        board.push({uid:Date.now()+Math.random(),elId:newEl.id,emoji:res.emoji,name:res.name,x:nx,y:ny});
+        diary.unshift(res.emoji+" "+res.name+" — "+a.name+" + "+b.name);
+        document.getElementById("diario").innerHTML=diary.map(x=>"<div>"+x+"</div>").join("");
+        document.getElementById("diarioCount").textContent=diary.length;
+        // Garante que ao abrir, a coleção tem os 6 e a lousa tem os 6 lado a lado
+if(!elements || elements.length===0) elements = [...BASE_ELEMENTS];
+if(!board || board.length===0) board = criarLousaInicial();
+renderElements(); renderBoard(); return;
+      }
+      renderBoard();
+    };
+    inner.appendChild(d);
+  });
+  document.getElementById("emptyMsg").style.display=board.length?"none":"block";
+}
+document.getElementById("search").oninput=renderElements;
+document.getElementById("filterCountry").onchange=renderElements;
+document.getElementById("restoreBase").onclick=()=>{ document.getElementById("search").value=""; document.getElementById("filterCountry").value="Todos os Países";
+  BASE_ELEMENTS.forEach(b=>{ if(!elements.find(e=>e.name===b.name)) elements.unshift({...b}); });
+  // Volta os 6 lado a lado na lousa também, pra ter o que fundir
+  if(board.length===0) board = criarLousaInicial();
+  // Garante que ao abrir, a coleção tem os 6 e a lousa tem os 6 lado a lado
+if(!elements || elements.length===0) elements = [...BASE_ELEMENTS];
+if(!board || board.length===0) board = criarLousaInicial();
+renderElements(); renderBoard();
+};
+document.getElementById("trashBtn").onclick=()=>{board=[]; selected=null; renderBoard();};
+document.getElementById("exportFusoes").onclick=()=>{
+  let data={
+    app:"San Craft",
+    exportedAt:new Date().toISOString(),
+    totalFusoes: diary.length,
+    totalElementos: elements.length,
+    fusoes: diary,
+    elementos: elements.map(e=>({emoji:e.emoji, name:e.name, country:e.country})),
+    board: board.map(b=>({emoji:b.emoji, name:b.name, x:b.x, y:b.y})),
+    cultura: {faunaFlora: FAUNA_FLORA.length, famososBrasil: FAMOSOS_BRASIL.length, astronomia: ASTRONOMIA.length}
+  };
+  let blob=new Blob([JSON.stringify(data, null, 2)], {type:"application/json"});
+  let a=document.createElement("a");
+  a.href=URL.createObjectURL(blob);
+  a.download="san-craft-fusoes.json";
+  a.click();
+  URL.revokeObjectURL(a.href);
+};
+(function(){
+  let lousaEl=document.getElementById("lousa");
+  if(!lousaEl) return;
+  lousaEl.ondragover=(e)=>{e.preventDefault();};
+  lousaEl.ondrop=(e)=>{
+    e.preventDefault();
+    let id=e.dataTransfer.getData("text/plain");
+    let el=elements.find(x=>x.id===id);
+    if(!el) return;
+    let r=lousaEl.getBoundingClientRect();
+    let x=(e.clientX-r.left)/(zoom/100)-40;
+    let y=(e.clientY-r.top)/(zoom/100)-15;
+    x=Math.max(10, Math.min(x, (r.width/(zoom/100))-170));
+    y=Math.max(56, Math.min(y, (r.height/(zoom/100))-60));
+    board.push({uid:Date.now()+Math.random(), elId:el.id, emoji:el.emoji, name:el.name, x, y});
+    renderBoard();
+  };
+  // Botão direito na lousa vazia = nada (evita menu do navegador na lousa)
+  lousaEl.oncontextmenu=(e)=>{ if(e.target===lousaEl || e.target.id==="boardInner") e.preventDefault(); };
+})();
+document.getElementById("zoomIn").onclick=()=>{zoom=Math.min(200,zoom+25); document.getElementById("zoomLabel").textContent=zoom+"%"; renderBoard();};
+document.getElementById("zoomOut").onclick=()=>{zoom=Math.max(50,zoom-25); document.getElementById("zoomLabel").textContent=zoom+"%"; renderBoard();};
+document.getElementById("zoomReset").onclick=()=>{zoom=100; document.getElementById("zoomLabel").textContent="100%"; renderBoard();};
+document.getElementById("expandBtn").onclick=()=>{let l=document.getElementById("lousa"); if(l.style.position==="fixed"){l.style.position=""; l.style.inset=""; l.style.zIndex=""; l.style.minHeight="650px";} else {l.style.position="fixed"; l.style.inset="10px"; l.style.zIndex="999"; l.style.minHeight="0";}};
+document.getElementById("toggleDiario").onclick=(e)=>{let b=document.getElementById("diarioBox"); let btn=e.target; if(b.style.display==="none"){b.style.display="block"; btn.textContent="— Minimizar"} else {b.style.display="none"; btn.textContent="+ Expandir"}};
+document.getElementById("toggleHallu").onclick=(e)=>{hallu=!hallu; e.target.textContent="🌌 Modo Alucinatório: "+(hallu?"ON":"OFF");};
+document.getElementById("btnJogar").onclick=()=>{
+  let n=document.getElementById("nome").value.trim();
+  if(!n){alert("Coloque seu apelido pra jogar"); return;}
+  currentUser={nome:n};
+  // ADM: só quem digitar exatamente SanMitinho123
+  let isAdmin = (n==="SanMitinho123");
+  if(isAdmin){ localStorage.setItem("san-admin","1"); }
+  else { localStorage.removeItem("san-admin"); }
+  document.getElementById("userInfo").textContent="Jogando como "+n+(isAdmin?" 👑 ADM":"");
+  document.getElementById("creatorLab").style.display=isAdmin?"block":"none";
+  document.getElementById("btnSair").style.display="block";
+};
+document.getElementById("nome").addEventListener("keydown",(e)=>{ if(e.key==="Enter") document.getElementById("btnJogar").click(); });
+document.getElementById("btnSair").onclick=()=>{currentUser=null; document.getElementById("userInfo").textContent=""; document.getElementById("creatorLab").style.display="none"; document.getElementById("btnSair").style.display="none"; document.getElementById("nome").value="";};
+document.getElementById("btnCreateEl").onclick=()=>{
+  let nm=document.getElementById("newName").value.trim(); let em=document.getElementById("newEmoji").value.trim()||"✨";
+  if(!nm){alert("Coloque o nome"); return;}
+  if(hasBanned(nm)){alert("Nome bloqueado pelo filtro +18"); return;}
+  let fmtName = cleanName(nm.replace(/\s+/g,"-"));
+  if(fmtName.length>50) fmtName=fmtName.slice(0,50);
+  elements.push({id:"el"+Date.now(),emoji:em,name:fmtName,country:"Brasil"}); renderElements(); alert("Criado: "+fmtName);
+};
+document.getElementById("btnCopy").onclick=()=>{copySel()};
+document.getElementById("btnDup").onclick=()=>{dupSel()};
+document.getElementById("btnDel").onclick=()=>{delSel()};
+function copySel(){let it=board.find(x=>x.uid===selected); if(!it) return; clipboard={...it}; alert("Copiado: "+it.emoji+" "+it.name);}
+function dupSel(){let it=board.find(x=>x.uid===selected); if(!it) return; board.push({uid:Date.now()+Math.random(),elId:it.elId,emoji:it.emoji,name:it.name,x:it.x+40,y:it.y+40}); renderBoard();}
+function delSel(){board=board.filter(x=>x.uid!==selected); selected=null; document.getElementById("floatBar").style.display="none"; renderBoard();}
+document.addEventListener("keydown",(e)=>{
+  let tag=(document.activeElement&&document.activeElement.tagName)||"";
+  if(tag==="INPUT"||tag==="TEXTAREA"||tag==="SELECT") return;
+  if((e.ctrlKey||e.metaKey)&&e.key.toLowerCase()==="c"){e.preventDefault(); copySel();}
+  if((e.ctrlKey||e.metaKey)&&e.key.toLowerCase()==="v"){e.preventDefault(); if(clipboard){board.push({uid:Date.now()+Math.random(),elId:clipboard.elId,emoji:clipboard.emoji,name:clipboard.name,x:200,y:200}); renderBoard();}}
+  if((e.ctrlKey||e.metaKey)&&e.key.toLowerCase()==="d"){e.preventDefault(); dupSel();}
+  if(e.key==="Delete"||e.key==="Backspace"){if(selected) delSel();}
+  if(e.key==="Escape"){selected=null; document.getElementById("floatBar").style.display="none"; renderBoard();}
+});
+document.getElementById("lousa").addEventListener("wheel",(e)=>{if(e.ctrlKey){e.preventDefault(); zoom+=e.deltaY<0?10:-10; zoom=Math.max(50,Math.min(200,zoom)); document.getElementById("zoomLabel").textContent=zoom+"%"; renderBoard();}}, {passive:false});
+document.getElementById("btnDownload").onclick=()=>{
+  let data=JSON.stringify({elements,board,diary},null,2); let blob=new Blob([data],{type:"application/json"}); let a=document.createElement("a"); a.href=URL.createObjectURL(blob); a.download="san-craft-save.json"; a.click();
+};
+document.getElementById("btnClearSave").onclick=()=>{board=[]; diary=[]; document.getElementById("diario").innerHTML=""; renderBoard();};
+function saveSlot(n){localStorage.setItem("san-slot-"+n, JSON.stringify({elements,board,diary,name:document.getElementById("slotName"+n).value})); alert("Salvo no Slot "+n);}
+function loadSlot(n){let d=localStorage.getItem("san-slot-"+n); if(!d){alert("Slot "+n+" vazio"); return;} let o=JSON.parse(d); elements=o.elements; board=o.board; diary=o.diary||[]; document.getElementById("diario").innerHTML=diary.map(x=>"<div>"+x+"</div>").join(""); document.getElementById("diarioCount").textContent=diary.length; // Garante que ao abrir, a coleção tem os 6 e a lousa tem os 6 lado a lado
+if(!elements || elements.length===0) elements = [...BASE_ELEMENTS];
+if(!board || board.length===0) board = criarLousaInicial();
+renderElements(); renderBoard();}
+function clearSlot(n){localStorage.removeItem("san-slot-"+n); alert("Slot "+n+" apagado");}
+document.getElementById("btnSaveSlot1").onclick=()=>saveSlot(1);
+document.getElementById("btnSaveSlot2").onclick=()=>saveSlot(2);
+document.getElementById("btnSaveSlot3").onclick=()=>saveSlot(3);
+// Garante que ao abrir, a coleção tem os 6 e a lousa tem os 6 lado a lado
+if(!elements || elements.length===0) elements = [...BASE_ELEMENTS];
+if(!board || board.length===0) board = criarLousaInicial();
+renderElements(); renderBoard();
+</script>
+</body>
+</html>
