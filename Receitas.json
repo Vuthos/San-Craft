@@ -1,0 +1,16 @@
+[
+  {"a":"Água","b":"Fogo","result":"Vapor","emoji":"♨️"},
+  {"a":"Fogo","b":"Terra","result":"Lava","emoji":"🌋"},
+  {"a":"Água","b":"Terra","result":"Lama","emoji":"🟤"},
+  {"a":"Vento","b":"Água","result":"Chuva","emoji":"🌧"},
+  {"a":"Fogo","b":"Vento","result":"Fumaça","emoji":"💨"},
+  {"a":"Água","b":"Água","result":"Oceano","emoji":"🌊"},
+  {"a":"Fogo","b":"Fogo","result":"Incêndio","emoji":"🔥"},
+  {"a":"Terra","b":"Terra","result":"Montanha","emoji":"⛰️"},
+  {"a":"Vento","b":"Vento","result":"Furacão","emoji":"🌀"},
+  {"a":"Sol","b":"Lua","result":"Eclipse","emoji":"🌑"},
+  {"a":"Fogo","b":"Sol","result":"Supernova","emoji":"💥"},
+  {"a":"Água","b":"Lua","result":"Maré","emoji":"🌊"},
+  {"a":"Meg","b":"Água","result":"Capivara","emoji":"🦫"},
+  {"a":"San","b":"Meg","result":"Amizade","emoji":"🤝"}
+]
