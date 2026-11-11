@@ -1,0 +1,1502 @@
+[
+  {
+    "emoji": "🍲",
+    "name": "Feijoada",
+    "country": "brasil",
+    "type": "comida"
+  },
+  {
+    "emoji": "🍫",
+    "name": "Brigadeiro",
+    "country": "brasil",
+    "type": "comida"
+  },
+  {
+    "emoji": "🧀",
+    "name": "Pão de Queijo",
+    "country": "brasil",
+    "type": "comida"
+  },
+  {
+    "emoji": "🍤",
+    "name": "Acarajé",
+    "country": "brasil",
+    "type": "comida"
+  },
+  {
+    "emoji": "🍗",
+    "name": "Coxinha",
+    "country": "brasil",
+    "type": "comida"
+  },
+  {
+    "emoji": "🥟",
+    "name": "Pastel",
+    "country": "brasil",
+    "type": "comida"
+  },
+  {
+    "emoji": "🥩",
+    "name": "Churrasco",
+    "country": "brasil",
+    "type": "comida"
+  },
+  {
+    "emoji": "🍇",
+    "name": "Açaí",
+    "country": "brasil",
+    "type": "comida"
+  },
+  {
+    "emoji": "🫓",
+    "name": "Tapioca",
+    "country": "brasil",
+    "type": "comida"
+  },
+  {
+    "emoji": "🐟",
+    "name": "Moqueca",
+    "country": "brasil",
+    "type": "comida"
+  },
+  {
+    "emoji": "🍛",
+    "name": "Vatapá",
+    "country": "brasil",
+    "type": "comida"
+  },
+  {
+    "emoji": "🍰",
+    "name": "Bolo de Rolo",
+    "country": "brasil",
+    "type": "comida"
+  },
+  {
+    "emoji": "🍮",
+    "name": "Pudim",
+    "country": "brasil",
+    "type": "comida"
+  },
+  {
+    "emoji": "🥥",
+    "name": "Quindim",
+    "country": "brasil",
+    "type": "comida"
+  },
+  {
+    "emoji": "🍢",
+    "name": "Espetinho",
+    "country": "brasil",
+    "type": "comida"
+  },
+  {
+    "emoji": "🌽",
+    "name": "Pamonha",
+    "country": "brasil",
+    "type": "comida"
+  },
+  {
+    "emoji": "🍚",
+    "name": "Arroz e Feijão",
+    "country": "brasil",
+    "type": "comida"
+  },
+  {
+    "emoji": "🥓",
+    "name": "Farofa",
+    "country": "brasil",
+    "type": "comida"
+  },
+  {
+    "emoji": "🍕",
+    "name": "Pizza",
+    "country": "brasil",
+    "type": "comida"
+  },
+  {
+    "emoji": "🍔",
+    "name": "Hambúrguer",
+    "country": "brasil",
+    "type": "comida"
+  },
+  {
+    "emoji": "🍦",
+    "name": "Sorvete",
+    "country": "brasil",
+    "type": "comida"
+  },
+  {
+    "emoji": "🍩",
+    "name": "Sonho",
+    "country": "brasil",
+    "type": "comida"
+  },
+  {
+    "emoji": "🥞",
+    "name": "Bolo de Fubá",
+    "country": "brasil",
+    "type": "comida"
+  },
+  {
+    "emoji": "🍯",
+    "name": "Rapadura",
+    "country": "brasil",
+    "type": "comida"
+  },
+  {
+    "emoji": "🥜",
+    "name": "Paçoca",
+    "country": "brasil",
+    "type": "comida"
+  },
+  {
+    "emoji": "🍍",
+    "name": "Bolo de Abacaxi",
+    "country": "brasil",
+    "type": "comida"
+  },
+  {
+    "emoji": "🦐",
+    "name": "Bobó de Camarão",
+    "country": "brasil",
+    "type": "comida"
+  },
+  {
+    "emoji": "🍲",
+    "name": "Caldo Verde",
+    "country": "brasil",
+    "type": "comida"
+  },
+  {
+    "emoji": "🥘",
+    "name": "Galinhada",
+    "country": "brasil",
+    "type": "comida"
+  },
+  {
+    "emoji": "🍖",
+    "name": "Costela",
+    "country": "brasil",
+    "type": "comida"
+  },
+  {
+    "emoji": "🧁",
+    "name": "Beijinho",
+    "country": "brasil",
+    "type": "comida"
+  },
+  {
+    "emoji": "🍪",
+    "name": "Biscoito de Polvilho",
+    "country": "brasil",
+    "type": "comida"
+  },
+  {
+    "emoji": "🌮",
+    "name": "Taco",
+    "country": "brasil",
+    "type": "comida"
+  },
+  {
+    "emoji": "🍜",
+    "name": "Macarrão",
+    "country": "brasil",
+    "type": "comida"
+  },
+  {
+    "emoji": "🥗",
+    "name": "Salada",
+    "country": "brasil",
+    "type": "comida"
+  },
+  {
+    "emoji": "🥤",
+    "name": "Guaraná",
+    "country": "brasil",
+    "type": "bebida"
+  },
+  {
+    "emoji": "🍹",
+    "name": "Caipirinha",
+    "country": "brasil",
+    "type": "bebida"
+  },
+  {
+    "emoji": "🧉",
+    "name": "Chimarrão",
+    "country": "brasil",
+    "type": "bebida"
+  },
+  {
+    "emoji": "☕",
+    "name": "Café",
+    "country": "brasil",
+    "type": "bebida"
+  },
+  {
+    "emoji": "🧃",
+    "name": "Suco de Maracujá",
+    "country": "brasil",
+    "type": "bebida"
+  },
+  {
+    "emoji": "🥛",
+    "name": "Leite",
+    "country": "brasil",
+    "type": "bebida"
+  },
+  {
+    "emoji": "🍺",
+    "name": "Cerveja",
+    "country": "brasil",
+    "type": "bebida"
+  },
+  {
+    "emoji": "🧋",
+    "name": "Água de Coco",
+    "country": "brasil",
+    "type": "bebida"
+  },
+  {
+    "emoji": "🍷",
+    "name": "Vinho",
+    "country": "brasil",
+    "type": "bebida"
+  },
+  {
+    "emoji": "🥂",
+    "name": "Champanhe",
+    "country": "brasil",
+    "type": "bebida"
+  },
+  {
+    "emoji": "🧊",
+    "name": "Tereré",
+    "country": "brasil",
+    "type": "bebida"
+  },
+  {
+    "emoji": "🍵",
+    "name": "Chá Mate",
+    "country": "brasil",
+    "type": "bebida"
+  },
+  {
+    "emoji": "🦫",
+    "name": "Capivara",
+    "country": "brasil",
+    "type": "animal"
+  },
+  {
+    "emoji": "🐆",
+    "name": "Onça Pintada",
+    "country": "brasil",
+    "type": "animal"
+  },
+  {
+    "emoji": "🦜",
+    "name": "Arara",
+    "country": "brasil",
+    "type": "animal"
+  },
+  {
+    "emoji": "🐢",
+    "name": "Tartaruga",
+    "country": "brasil",
+    "type": "animal"
+  },
+  {
+    "emoji": "🐒",
+    "name": "Mico Leão Dourado",
+    "country": "brasil",
+    "type": "animal"
+  },
+  {
+    "emoji": "🦥",
+    "name": "Bicho Preguiça",
+    "country": "brasil",
+    "type": "animal"
+  },
+  {
+    "emoji": "🦎",
+    "name": "Lagarto",
+    "country": "brasil",
+    "type": "animal"
+  },
+  {
+    "emoji": "🐍",
+    "name": "Jiboia",
+    "country": "brasil",
+    "type": "animal"
+  },
+  {
+    "emoji": "🦅",
+    "name": "Gavião",
+    "country": "brasil",
+    "type": "animal"
+  },
+  {
+    "emoji": "🦉",
+    "name": "Coruja",
+    "country": "brasil",
+    "type": "animal"
+  },
+  {
+    "emoji": "🐝",
+    "name": "Abelha",
+    "country": "brasil",
+    "type": "animal"
+  },
+  {
+    "emoji": "🦋",
+    "name": "Borboleta",
+    "country": "brasil",
+    "type": "animal"
+  },
+  {
+    "emoji": "🐬",
+    "name": "Golfinho",
+    "country": "brasil",
+    "type": "animal"
+  },
+  {
+    "emoji": "🐋",
+    "name": "Baleia",
+    "country": "brasil",
+    "type": "animal"
+  },
+  {
+    "emoji": "🦈",
+    "name": "Tubarão",
+    "country": "brasil",
+    "type": "animal"
+  },
+  {
+    "emoji": "🐊",
+    "name": "Jacaré",
+    "country": "brasil",
+    "type": "animal"
+  },
+  {
+    "emoji": "🦜",
+    "name": "Tucano",
+    "country": "brasil",
+    "type": "animal"
+  },
+  {
+    "emoji": "🐦",
+    "name": "Sabiá",
+    "country": "brasil",
+    "type": "animal"
+  },
+  {
+    "emoji": "🐔",
+    "name": "Galinha",
+    "country": "brasil",
+    "type": "animal"
+  },
+  {
+    "emoji": "🐶",
+    "name": "Cachorro",
+    "country": "brasil",
+    "type": "animal"
+  },
+  {
+    "emoji": "🐱",
+    "name": "Gato",
+    "country": "brasil",
+    "type": "animal"
+  },
+  {
+    "emoji": "🐴",
+    "name": "Cavalo",
+    "country": "brasil",
+    "type": "animal"
+  },
+  {
+    "emoji": "🐮",
+    "name": "Boi",
+    "country": "brasil",
+    "type": "animal"
+  },
+  {
+    "emoji": "🐷",
+    "name": "Porco",
+    "country": "brasil",
+    "type": "animal"
+  },
+  {
+    "emoji": "🐑",
+    "name": "Ovelha",
+    "country": "brasil",
+    "type": "animal"
+  },
+  {
+    "emoji": "🐐",
+    "name": "Cabra",
+    "country": "brasil",
+    "type": "animal"
+  },
+  {
+    "emoji": "🐰",
+    "name": "Coelho",
+    "country": "brasil",
+    "type": "animal"
+  },
+  {
+    "emoji": "🐭",
+    "name": "Rato",
+    "country": "brasil",
+    "type": "animal"
+  },
+  {
+    "emoji": "🦔",
+    "name": "Ouriço",
+    "country": "brasil",
+    "type": "animal"
+  },
+  {
+    "emoji": "🐘",
+    "name": "Elefante",
+    "country": "brasil",
+    "type": "animal"
+  },
+  {
+    "emoji": "🦁",
+    "name": "Leão",
+    "country": "brasil",
+    "type": "animal"
+  },
+  {
+    "emoji": "🐯",
+    "name": "Tigre",
+    "country": "brasil",
+    "type": "animal"
+  },
+  {
+    "emoji": "🦒",
+    "name": "Girafa",
+    "country": "brasil",
+    "type": "animal"
+  },
+  {
+    "emoji": "🦓",
+    "name": "Zebra",
+    "country": "brasil",
+    "type": "animal"
+  },
+  {
+    "emoji": "🐻",
+    "name": "Urso",
+    "country": "brasil",
+    "type": "animal"
+  },
+  {
+    "emoji": "🌳",
+    "name": "Amazônia",
+    "country": "brasil",
+    "type": "lugar"
+  },
+  {
+    "emoji": "🏖️",
+    "name": "Copacabana",
+    "country": "brasil",
+    "type": "lugar"
+  },
+  {
+    "emoji": "🗼",
+    "name": "Cristo Redentor",
+    "country": "brasil",
+    "type": "lugar"
+  },
+  {
+    "emoji": "🏔️",
+    "name": "Pão de Açúcar",
+    "country": "brasil",
+    "type": "lugar"
+  },
+  {
+    "emoji": "🏝️",
+    "name": "Fernando de Noronha",
+    "country": "brasil",
+    "type": "lugar"
+  },
+  {
+    "emoji": "🏛️",
+    "name": "Ouro Preto",
+    "country": "brasil",
+    "type": "lugar"
+  },
+  {
+    "emoji": "🌅",
+    "name": "Salvador",
+    "country": "brasil",
+    "type": "lugar"
+  },
+  {
+    "emoji": "🌇",
+    "name": "São Paulo",
+    "country": "brasil",
+    "type": "lugar"
+  },
+  {
+    "emoji": "🏙️",
+    "name": "Brasília",
+    "country": "brasil",
+    "type": "lugar"
+  },
+  {
+    "emoji": "🌊",
+    "name": "Praia",
+    "country": "brasil",
+    "type": "lugar"
+  },
+  {
+    "emoji": "🏞️",
+    "name": "Cachoeira",
+    "country": "brasil",
+    "type": "lugar"
+  },
+  {
+    "emoji": "🌋",
+    "name": "Chapada",
+    "country": "brasil",
+    "type": "lugar"
+  },
+  {
+    "emoji": "🏜️",
+    "name": "Sertão",
+    "country": "brasil",
+    "type": "lugar"
+  },
+  {
+    "emoji": "🌾",
+    "name": "Pantanal",
+    "country": "brasil",
+    "type": "lugar"
+  },
+  {
+    "emoji": "🌸",
+    "name": "Ipê Amarelo",
+    "country": "brasil",
+    "type": "lugar"
+  },
+  {
+    "emoji": "🌺",
+    "name": "Vitória Régia",
+    "country": "brasil",
+    "type": "planta"
+  },
+  {
+    "emoji": "🌻",
+    "name": "Girassol",
+    "country": "brasil",
+    "type": "planta"
+  },
+  {
+    "emoji": "🌹",
+    "name": "Rosa",
+    "country": "brasil",
+    "type": "planta"
+  },
+  {
+    "emoji": "🌵",
+    "name": "Cacto",
+    "country": "brasil",
+    "type": "planta"
+  },
+  {
+    "emoji": "🌿",
+    "name": "Samambaia",
+    "country": "brasil",
+    "type": "planta"
+  },
+  {
+    "emoji": "🍀",
+    "name": "Trevo",
+    "country": "brasil",
+    "type": "planta"
+  },
+  {
+    "emoji": "🌴",
+    "name": "Coqueiro",
+    "country": "brasil",
+    "type": "planta"
+  },
+  {
+    "emoji": "🍌",
+    "name": "Bananeira",
+    "country": "brasil",
+    "type": "planta"
+  },
+  {
+    "emoji": "🥭",
+    "name": "Mangueira",
+    "country": "brasil",
+    "type": "planta"
+  },
+  {
+    "emoji": "🌳",
+    "name": "Jatobá",
+    "country": "brasil",
+    "type": "planta"
+  },
+  {
+    "emoji": "🌲",
+    "name": "Pinheiro",
+    "country": "brasil",
+    "type": "planta"
+  },
+  {
+    "emoji": "🍃",
+    "name": "Folha",
+    "country": "brasil",
+    "type": "planta"
+  },
+  {
+    "emoji": "🌼",
+    "name": "Margarida",
+    "country": "brasil",
+    "type": "planta"
+  },
+  {
+    "emoji": "🌷",
+    "name": "Tulipa",
+    "country": "brasil",
+    "type": "planta"
+  },
+  {
+    "emoji": "🍄",
+    "name": "Cogumelo",
+    "country": "brasil",
+    "type": "planta"
+  },
+  {
+    "emoji": "🌰",
+    "name": "Castanha",
+    "country": "brasil",
+    "type": "planta"
+  },
+  {
+    "emoji": "🥥",
+    "name": "Coco",
+    "country": "brasil",
+    "type": "planta"
+  },
+  {
+    "emoji": "🍊",
+    "name": "Laranjeira",
+    "country": "brasil",
+    "type": "planta"
+  },
+  {
+    "emoji": "🍋",
+    "name": "Limão",
+    "country": "brasil",
+    "type": "planta"
+  },
+  {
+    "emoji": "🍓",
+    "name": "Morango",
+    "country": "brasil",
+    "type": "planta"
+  },
+  {
+    "emoji": "🎶",
+    "name": "Samba",
+    "country": "brasil",
+    "type": "cultura"
+  },
+  {
+    "emoji": "🎵",
+    "name": "Funk",
+    "country": "brasil",
+    "type": "cultura"
+  },
+  {
+    "emoji": "🪗",
+    "name": "Forró",
+    "country": "brasil",
+    "type": "cultura"
+  },
+  {
+    "emoji": "🎭",
+    "name": "Carnaval",
+    "country": "brasil",
+    "type": "cultura"
+  },
+  {
+    "emoji": "🥁",
+    "name": "Frevo",
+    "country": "brasil",
+    "type": "cultura"
+  },
+  {
+    "emoji": "🤸",
+    "name": "Capoeira",
+    "country": "brasil",
+    "type": "cultura"
+  },
+  {
+    "emoji": "💃",
+    "name": "Forró Pé de Serra",
+    "country": "brasil",
+    "type": "cultura"
+  },
+  {
+    "emoji": "🎤",
+    "name": "Pagode",
+    "country": "brasil",
+    "type": "cultura"
+  },
+  {
+    "emoji": "🎸",
+    "name": "Sertanejo",
+    "country": "brasil",
+    "type": "cultura"
+  },
+  {
+    "emoji": "🎻",
+    "name": "Choro",
+    "country": "brasil",
+    "type": "cultura"
+  },
+  {
+    "emoji": "🎺",
+    "name": "Marchinha",
+    "country": "brasil",
+    "type": "cultura"
+  },
+  {
+    "emoji": "🎆",
+    "name": "Festa Junina",
+    "country": "brasil",
+    "type": "cultura"
+  },
+  {
+    "emoji": "🎇",
+    "name": "Fogos",
+    "country": "brasil",
+    "type": "cultura"
+  },
+  {
+    "emoji": "🎪",
+    "name": "Circo",
+    "country": "brasil",
+    "type": "cultura"
+  },
+  {
+    "emoji": "🎬",
+    "name": "Cinema",
+    "country": "brasil",
+    "type": "cultura"
+  },
+  {
+    "emoji": "📚",
+    "name": "Literatura",
+    "country": "brasil",
+    "type": "cultura"
+  },
+  {
+    "emoji": "🎨",
+    "name": "Pintura",
+    "country": "brasil",
+    "type": "cultura"
+  },
+  {
+    "emoji": "🩰",
+    "name": "Balé",
+    "country": "brasil",
+    "type": "cultura"
+  },
+  {
+    "emoji": "🎹",
+    "name": "Piano",
+    "country": "brasil",
+    "type": "cultura"
+  },
+  {
+    "emoji": "🥁",
+    "name": "Bateria",
+    "country": "brasil",
+    "type": "cultura"
+  },
+  {
+    "emoji": "🎷",
+    "name": "Saxofone",
+    "country": "brasil",
+    "type": "cultura"
+  },
+  {
+    "emoji": "🎺",
+    "name": "Trompete",
+    "country": "brasil",
+    "type": "cultura"
+  },
+  {
+    "emoji": "🎸",
+    "name": "Violão",
+    "country": "brasil",
+    "type": "cultura"
+  },
+  {
+    "emoji": "🪘",
+    "name": "Tambor",
+    "country": "brasil",
+    "type": "cultura"
+  },
+  {
+    "emoji": "🎧",
+    "name": "Música",
+    "country": "brasil",
+    "type": "cultura"
+  },
+  {
+    "emoji": "📖",
+    "name": "Livro",
+    "country": "brasil",
+    "type": "cultura"
+  },
+  {
+    "emoji": "✏️",
+    "name": "Poesia",
+    "country": "brasil",
+    "type": "cultura"
+  },
+  {
+    "emoji": "🎭",
+    "name": "Teatro",
+    "country": "brasil",
+    "type": "cultura"
+  },
+  {
+    "emoji": "🎥",
+    "name": "Novela",
+    "country": "brasil",
+    "type": "cultura"
+  },
+  {
+    "emoji": "📺",
+    "name": "Televisão",
+    "country": "brasil",
+    "type": "cultura"
+  },
+  {
+    "emoji": "⚽",
+    "name": "Futebol",
+    "country": "brasil",
+    "type": "esporte"
+  },
+  {
+    "emoji": "👑",
+    "name": "Pelé",
+    "country": "brasil",
+    "type": "esporte"
+  },
+  {
+    "emoji": "⭐",
+    "name": "Neymar",
+    "country": "brasil",
+    "type": "esporte"
+  },
+  {
+    "emoji": "🏟️",
+    "name": "Maracanã",
+    "country": "brasil",
+    "type": "esporte"
+  },
+  {
+    "emoji": "🥅",
+    "name": "Gol",
+    "country": "brasil",
+    "type": "esporte"
+  },
+  {
+    "emoji": "🏆",
+    "name": "Troféu",
+    "country": "brasil",
+    "type": "esporte"
+  },
+  {
+    "emoji": "🏅",
+    "name": "Medalha",
+    "country": "brasil",
+    "type": "esporte"
+  },
+  {
+    "emoji": "🏃",
+    "name": "Corrida",
+    "country": "brasil",
+    "type": "esporte"
+  },
+  {
+    "emoji": "🏊",
+    "name": "Natação",
+    "country": "brasil",
+    "type": "esporte"
+  },
+  {
+    "emoji": "🚴",
+    "name": "Ciclismo",
+    "country": "brasil",
+    "type": "esporte"
+  },
+  {
+    "emoji": "🏐",
+    "name": "Vôlei",
+    "country": "brasil",
+    "type": "esporte"
+  },
+  {
+    "emoji": "🏀",
+    "name": "Basquete",
+    "country": "brasil",
+    "type": "esporte"
+  },
+  {
+    "emoji": "🥋",
+    "name": "Judô",
+    "country": "brasil",
+    "type": "esporte"
+  },
+  {
+    "emoji": "🥊",
+    "name": "Boxe",
+    "country": "brasil",
+    "type": "esporte"
+  },
+  {
+    "emoji": "🏄",
+    "name": "Surfe",
+    "country": "brasil",
+    "type": "esporte"
+  },
+  {
+    "emoji": "🏇",
+    "name": "Hipismo",
+    "country": "brasil",
+    "type": "esporte"
+  },
+  {
+    "emoji": "🤸",
+    "name": "Ginástica",
+    "country": "brasil",
+    "type": "esporte"
+  },
+  {
+    "emoji": "🎾",
+    "name": "Tênis",
+    "country": "brasil",
+    "type": "esporte"
+  },
+  {
+    "emoji": "🏓",
+    "name": "Tênis de Mesa",
+    "country": "brasil",
+    "type": "esporte"
+  },
+  {
+    "emoji": "⛳",
+    "name": "Golfe",
+    "country": "brasil",
+    "type": "esporte"
+  },
+  {
+    "emoji": "🛏️",
+    "name": "Rede",
+    "country": "brasil",
+    "type": "objeto"
+  },
+  {
+    "emoji": "🩴",
+    "name": "Chinelo",
+    "country": "brasil",
+    "type": "objeto"
+  },
+  {
+    "emoji": "👒",
+    "name": "Chapéu",
+    "country": "brasil",
+    "type": "objeto"
+  },
+  {
+    "emoji": "🕶️",
+    "name": "Óculos de Sol",
+    "country": "brasil",
+    "type": "objeto"
+  },
+  {
+    "emoji": "🎒",
+    "name": "Mochila",
+    "country": "brasil",
+    "type": "objeto"
+  },
+  {
+    "emoji": "📱",
+    "name": "Celular",
+    "country": "brasil",
+    "type": "objeto"
+  },
+  {
+    "emoji": "💻",
+    "name": "Computador",
+    "country": "brasil",
+    "type": "objeto"
+  },
+  {
+    "emoji": "📷",
+    "name": "Câmera",
+    "country": "brasil",
+    "type": "objeto"
+  },
+  {
+    "emoji": "🚗",
+    "name": "Carro",
+    "country": "brasil",
+    "type": "objeto"
+  },
+  {
+    "emoji": "🚌",
+    "name": "Ônibus",
+    "country": "brasil",
+    "type": "objeto"
+  },
+  {
+    "emoji": "🚲",
+    "name": "Bicicleta",
+    "country": "brasil",
+    "type": "objeto"
+  },
+  {
+    "emoji": "✈️",
+    "name": "Avião",
+    "country": "brasil",
+    "type": "objeto"
+  },
+  {
+    "emoji": "🚢",
+    "name": "Navio",
+    "country": "brasil",
+    "type": "objeto"
+  },
+  {
+    "emoji": "🏠",
+    "name": "Casa",
+    "country": "brasil",
+    "type": "objeto"
+  },
+  {
+    "emoji": "🏫",
+    "name": "Escola",
+    "country": "brasil",
+    "type": "objeto"
+  },
+  {
+    "emoji": "🏥",
+    "name": "Hospital",
+    "country": "brasil",
+    "type": "objeto"
+  },
+  {
+    "emoji": "🏦",
+    "name": "Banco",
+    "country": "brasil",
+    "type": "objeto"
+  },
+  {
+    "emoji": "🛒",
+    "name": "Mercado",
+    "country": "brasil",
+    "type": "objeto"
+  },
+  {
+    "emoji": "🍽️",
+    "name": "Prato",
+    "country": "brasil",
+    "type": "objeto"
+  },
+  {
+    "emoji": "🥄",
+    "name": "Colher",
+    "country": "brasil",
+    "type": "objeto"
+  },
+  {
+    "emoji": "🍴",
+    "name": "Garfo",
+    "country": "brasil",
+    "type": "objeto"
+  },
+  {
+    "emoji": "🔪",
+    "name": "Faca",
+    "country": "brasil",
+    "type": "objeto"
+  },
+  {
+    "emoji": "☂️",
+    "name": "Guarda Chuva",
+    "country": "brasil",
+    "type": "objeto"
+  },
+  {
+    "emoji": "🧢",
+    "name": "Boné",
+    "country": "brasil",
+    "type": "objeto"
+  },
+  {
+    "emoji": "👕",
+    "name": "Camiseta",
+    "country": "brasil",
+    "type": "objeto"
+  },
+  {
+    "emoji": "👖",
+    "name": "Calça",
+    "country": "brasil",
+    "type": "objeto"
+  },
+  {
+    "emoji": "🧦",
+    "name": "Meia",
+    "country": "brasil",
+    "type": "objeto"
+  },
+  {
+    "emoji": "⌚",
+    "name": "Relógio",
+    "country": "brasil",
+    "type": "objeto"
+  },
+  {
+    "emoji": "💡",
+    "name": "Lâmpada",
+    "country": "brasil",
+    "type": "objeto"
+  },
+  {
+    "emoji": "🔑",
+    "name": "Chave",
+    "country": "brasil",
+    "type": "objeto"
+  },
+  {
+    "emoji": "📦",
+    "name": "Caixa",
+    "country": "brasil",
+    "type": "objeto"
+  },
+  {
+    "emoji": "🎁",
+    "name": "Presente",
+    "country": "brasil",
+    "type": "objeto"
+  },
+  {
+    "emoji": "🧸",
+    "name": "Urso de Pelúcia",
+    "country": "brasil",
+    "type": "objeto"
+  },
+  {
+    "emoji": "🪁",
+    "name": "Pipa",
+    "country": "brasil",
+    "type": "objeto"
+  },
+  {
+    "emoji": "👨‍🏫",
+    "name": "Professor",
+    "country": "brasil",
+    "type": "pessoa"
+  },
+  {
+    "emoji": "👩‍⚕️",
+    "name": "Médica",
+    "country": "brasil",
+    "type": "pessoa"
+  },
+  {
+    "emoji": "👨‍🍳",
+    "name": "Cozinheiro",
+    "country": "brasil",
+    "type": "pessoa"
+  },
+  {
+    "emoji": "👩‍🎤",
+    "name": "Cantora",
+    "country": "brasil",
+    "type": "pessoa"
+  },
+  {
+    "emoji": "👨‍🎨",
+    "name": "Pintor",
+    "country": "brasil",
+    "type": "pessoa"
+  },
+  {
+    "emoji": "👩‍🚀",
+    "name": "Astronauta",
+    "country": "brasil",
+    "type": "pessoa"
+  },
+  {
+    "emoji": "👨‍🌾",
+    "name": "Fazendeiro",
+    "country": "brasil",
+    "type": "pessoa"
+  },
+  {
+    "emoji": "👩‍🏭",
+    "name": "Engenheira",
+    "country": "brasil",
+    "type": "pessoa"
+  },
+  {
+    "emoji": "👨‍🔧",
+    "name": "Mecânico",
+    "country": "brasil",
+    "type": "pessoa"
+  },
+  {
+    "emoji": "👩‍💼",
+    "name": "Advogada",
+    "country": "brasil",
+    "type": "pessoa"
+  },
+  {
+    "emoji": "👨‍✈️",
+    "name": "Piloto",
+    "country": "brasil",
+    "type": "pessoa"
+  },
+  {
+    "emoji": "👩‍🎓",
+    "name": "Estudante",
+    "country": "brasil",
+    "type": "pessoa"
+  },
+  {
+    "emoji": "👨‍👩‍👧",
+    "name": "Família",
+    "country": "brasil",
+    "type": "pessoa"
+  },
+  {
+    "emoji": "👶",
+    "name": "Bebê",
+    "country": "brasil",
+    "type": "pessoa"
+  },
+  {
+    "emoji": "👧",
+    "name": "Menina",
+    "country": "brasil",
+    "type": "pessoa"
+  },
+  {
+    "emoji": "👦",
+    "name": "Menino",
+    "country": "brasil",
+    "type": "pessoa"
+  },
+  {
+    "emoji": "👵",
+    "name": "Vovó",
+    "country": "brasil",
+    "type": "pessoa"
+  },
+  {
+    "emoji": "👴",
+    "name": "Vovô",
+    "country": "brasil",
+    "type": "pessoa"
+  },
+  {
+    "emoji": "🤱",
+    "name": "Mãe",
+    "country": "brasil",
+    "type": "pessoa"
+  },
+  {
+    "emoji": "👨",
+    "name": "Pai",
+    "country": "brasil",
+    "type": "pessoa"
+  },
+  {
+    "emoji": "👩",
+    "name": "Irmã",
+    "country": "brasil",
+    "type": "pessoa"
+  },
+  {
+    "emoji": "👦",
+    "name": "Irmão",
+    "country": "brasil",
+    "type": "pessoa"
+  },
+  {
+    "emoji": "👶",
+    "name": "Amigo",
+    "country": "brasil",
+    "type": "pessoa"
+  },
+  {
+    "emoji": "👸",
+    "name": "Princesa",
+    "country": "brasil",
+    "type": "pessoa"
+  },
+  {
+    "emoji": "🤴",
+    "name": "Príncipe",
+    "country": "brasil",
+    "type": "pessoa"
+  },
+  {
+    "emoji": "🦸",
+    "name": "Herói",
+    "country": "brasil",
+    "type": "pessoa"
+  },
+  {
+    "emoji": "🧙",
+    "name": "Mago",
+    "country": "brasil",
+    "type": "pessoa"
+  },
+  {
+    "emoji": "🧚",
+    "name": "Fada",
+    "country": "brasil",
+    "type": "pessoa"
+  },
+  {
+    "emoji": "📖",
+    "name": "Machado de Assis",
+    "country": "brasil",
+    "type": "famoso"
+  },
+  {
+    "emoji": "🎤",
+    "name": "Roberto Carlos",
+    "country": "brasil",
+    "type": "famoso"
+  },
+  {
+    "emoji": "⚽",
+    "name": "Ronaldo",
+    "country": "brasil",
+    "type": "famoso"
+  },
+  {
+    "emoji": "🎤",
+    "name": "Anitta",
+    "country": "brasil",
+    "type": "famoso"
+  },
+  {
+    "emoji": "📚",
+    "name": "Clarice Lispector",
+    "country": "brasil",
+    "type": "famoso"
+  },
+  {
+    "emoji": "🎨",
+    "name": "Tarsila do Amaral",
+    "country": "brasil",
+    "type": "famoso"
+  },
+  {
+    "emoji": "🏎️",
+    "name": "Ayrton Senna",
+    "country": "brasil",
+    "type": "famoso"
+  },
+  {
+    "emoji": "🎭",
+    "name": "Chico Anysio",
+    "country": "brasil",
+    "type": "famoso"
+  },
+  {
+    "emoji": "🎤",
+    "name": "Caetano Veloso",
+    "country": "brasil",
+    "type": "famoso"
+  },
+  {
+    "emoji": "🎤",
+    "name": "Gilberto Gil",
+    "country": "brasil",
+    "type": "famoso"
+  },
+  {
+    "emoji": "⚽",
+    "name": "Marta",
+    "country": "brasil",
+    "type": "famoso"
+  },
+  {
+    "emoji": "📖",
+    "name": "Monteiro Lobato",
+    "country": "brasil",
+    "type": "famoso"
+  },
+  {
+    "emoji": "🎤",
+    "name": "Elis Regina",
+    "country": "brasil",
+    "type": "famoso"
+  },
+  {
+    "emoji": "🎤",
+    "name": "Tim Maia",
+    "country": "brasil",
+    "type": "famoso"
+  },
+  {
+    "emoji": "⚽",
+    "name": "Romário",
+    "country": "brasil",
+    "type": "famoso"
+  },
+  {
+    "emoji": "🎤",
+    "name": "Ivete Sangalo",
+    "country": "brasil",
+    "type": "famoso"
+  },
+  {
+    "emoji": "📚",
+    "name": "Jorge Amado",
+    "country": "brasil",
+    "type": "famoso"
+  },
+  {
+    "emoji": "🎨",
+    "name": "Oscar Niemeyer",
+    "country": "brasil",
+    "type": "famoso"
+  },
+  {
+    "emoji": "⚽",
+    "name": "Zico",
+    "country": "brasil",
+    "type": "famoso"
+  },
+  {
+    "emoji": "🎤",
+    "name": "Luiz Gonzaga",
+    "country": "brasil",
+    "type": "famoso"
+  },
+  {
+    "emoji": "🍎",
+    "name": "Maçã",
+    "country": "brasil",
+    "type": "fruta"
+  }
+]
