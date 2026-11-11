@@ -378,12 +378,17 @@ function normNome(s){ return (s||"").toLowerCase().normalize("NFD").replace(/[\u
 function buscarReceitaExata(aName,bName){
   if(!COMBINACOES || COMBINACOES.length===0) return null;
   let na=normNome(aName), nb=normNome(bName);
-  for(let r of COMBINACOES){
-    let ra=normNome(r.a), rb=normNome(r.b);
-    if((ra===na && rb===nb) || (ra===nb && rb===na)){
-      return {emoji:r.emoji, name:r.name, country:r.country||"brasil"};
-    }
+  function viraLista(v) {
+  if (Array.isArray(v)) return v.map(x => normNome(x));
+  return [normNome(v)];
+}
+    for (let r of COMBINACOES) {
+  let listaA = viraLista(r.a);
+  let listaB = viraLista(r.b);
+  if ((listaA.includes(na) && listaB.includes(nb)) || (listaA.includes(nb) && listaB.includes(na))) {
+    return { emoji: r.emoji, name: r.name, country: r.country || "brasil" };
   }
+}
   return null;
 }
 
