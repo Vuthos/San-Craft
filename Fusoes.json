@@ -1,7 +1,7 @@
 [
   {
-    "a": "água",
-    "b": "vida",
+    "a": ["água", "fogo", "terra"],
+    "b": "vida"
     "emoji": "🦠​",
     "name": "Bactéria",
     "country": "brasil"
