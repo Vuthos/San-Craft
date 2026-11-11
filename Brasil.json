@@ -1,0 +1,2502 @@
+[
+  {
+    "id": "brasil-001",
+    "emoji": "🍲",
+    "name": "Feijoada",
+    "country": "brasil",
+    "type": "comida",
+    "elemento": "fogo",
+    "a": "fogo",
+    "b": "energia"
+  },
+  {
+    "id": "brasil-002",
+    "emoji": "🍫",
+    "name": "Brigadeiro",
+    "country": "brasil",
+    "type": "comida",
+    "elemento": "fogo",
+    "a": "brasil-001",
+    "b": "fogo"
+  },
+  {
+    "id": "brasil-003",
+    "emoji": "🧀",
+    "name": "Pão de Queijo",
+    "country": "brasil",
+    "type": "comida",
+    "elemento": "fogo",
+    "a": "brasil-002",
+    "b": "fogo"
+  },
+  {
+    "id": "brasil-004",
+    "emoji": "🍤",
+    "name": "Acarajé",
+    "country": "brasil",
+    "type": "comida",
+    "elemento": "fogo",
+    "a": "brasil-003",
+    "b": "fogo"
+  },
+  {
+    "id": "brasil-005",
+    "emoji": "🍗",
+    "name": "Coxinha",
+    "country": "brasil",
+    "type": "comida",
+    "elemento": "fogo",
+    "a": "brasil-004",
+    "b": "fogo"
+  },
+  {
+    "id": "brasil-006",
+    "emoji": "🥟",
+    "name": "Pastel",
+    "country": "brasil",
+    "type": "comida",
+    "elemento": "fogo",
+    "a": "brasil-005",
+    "b": "fogo"
+  },
+  {
+    "id": "brasil-007",
+    "emoji": "🥩",
+    "name": "Churrasco",
+    "country": "brasil",
+    "type": "comida",
+    "elemento": "fogo",
+    "a": "brasil-006",
+    "b": "fogo"
+  },
+  {
+    "id": "brasil-008",
+    "emoji": "🍇",
+    "name": "Açaí",
+    "country": "brasil",
+    "type": "comida",
+    "elemento": "fogo",
+    "a": "brasil-007",
+    "b": "fogo"
+  },
+  {
+    "id": "brasil-009",
+    "emoji": "🫓",
+    "name": "Tapioca",
+    "country": "brasil",
+    "type": "comida",
+    "elemento": "fogo",
+    "a": "brasil-008",
+    "b": "fogo"
+  },
+  {
+    "id": "brasil-010",
+    "emoji": "🐟",
+    "name": "Moqueca",
+    "country": "brasil",
+    "type": "comida",
+    "elemento": "fogo",
+    "a": "brasil-009",
+    "b": "fogo"
+  },
+  {
+    "id": "brasil-011",
+    "emoji": "🍛",
+    "name": "Vatapá",
+    "country": "brasil",
+    "type": "comida",
+    "elemento": "fogo",
+    "a": "brasil-010",
+    "b": "fogo"
+  },
+  {
+    "id": "brasil-012",
+    "emoji": "🍰",
+    "name": "Bolo de Rolo",
+    "country": "brasil",
+    "type": "comida",
+    "elemento": "fogo",
+    "a": "brasil-011",
+    "b": "fogo"
+  },
+  {
+    "id": "brasil-013",
+    "emoji": "🍮",
+    "name": "Pudim",
+    "country": "brasil",
+    "type": "comida",
+    "elemento": "fogo",
+    "a": "brasil-012",
+    "b": "fogo"
+  },
+  {
+    "id": "brasil-014",
+    "emoji": "🥥",
+    "name": "Quindim",
+    "country": "brasil",
+    "type": "comida",
+    "elemento": "fogo",
+    "a": "brasil-013",
+    "b": "fogo"
+  },
+  {
+    "id": "brasil-015",
+    "emoji": "🍢",
+    "name": "Espetinho",
+    "country": "brasil",
+    "type": "comida",
+    "elemento": "fogo",
+    "a": "brasil-014",
+    "b": "fogo"
+  },
+  {
+    "id": "brasil-016",
+    "emoji": "🌽",
+    "name": "Pamonha",
+    "country": "brasil",
+    "type": "comida",
+    "elemento": "fogo",
+    "a": "brasil-015",
+    "b": "fogo"
+  },
+  {
+    "id": "brasil-017",
+    "emoji": "🍚",
+    "name": "Arroz e Feijão",
+    "country": "brasil",
+    "type": "comida",
+    "elemento": "fogo",
+    "a": "brasil-016",
+    "b": "fogo"
+  },
+  {
+    "id": "brasil-018",
+    "emoji": "🥓",
+    "name": "Farofa",
+    "country": "brasil",
+    "type": "comida",
+    "elemento": "fogo",
+    "a": "brasil-017",
+    "b": "fogo"
+  },
+  {
+    "id": "brasil-019",
+    "emoji": "🍕",
+    "name": "Pizza",
+    "country": "brasil",
+    "type": "comida",
+    "elemento": "fogo",
+    "a": "brasil-018",
+    "b": "fogo"
+  },
+  {
+    "id": "brasil-020",
+    "emoji": "🍔",
+    "name": "Hambúrguer",
+    "country": "brasil",
+    "type": "comida",
+    "elemento": "fogo",
+    "a": "brasil-019",
+    "b": "fogo"
+  },
+  {
+    "id": "brasil-021",
+    "emoji": "🍦",
+    "name": "Sorvete",
+    "country": "brasil",
+    "type": "comida",
+    "elemento": "fogo",
+    "a": "brasil-020",
+    "b": "fogo"
+  },
+  {
+    "id": "brasil-022",
+    "emoji": "🍩",
+    "name": "Sonho",
+    "country": "brasil",
+    "type": "comida",
+    "elemento": "fogo",
+    "a": "brasil-021",
+    "b": "fogo"
+  },
+  {
+    "id": "brasil-023",
+    "emoji": "🥞",
+    "name": "Bolo de Fubá",
+    "country": "brasil",
+    "type": "comida",
+    "elemento": "fogo",
+    "a": "brasil-022",
+    "b": "fogo"
+  },
+  {
+    "id": "brasil-024",
+    "emoji": "🍯",
+    "name": "Rapadura",
+    "country": "brasil",
+    "type": "comida",
+    "elemento": "fogo",
+    "a": "brasil-023",
+    "b": "fogo"
+  },
+  {
+    "id": "brasil-025",
+    "emoji": "🥜",
+    "name": "Paçoca",
+    "country": "brasil",
+    "type": "comida",
+    "elemento": "fogo",
+    "a": "brasil-024",
+    "b": "fogo"
+  },
+  {
+    "id": "brasil-026",
+    "emoji": "🍍",
+    "name": "Bolo de Abacaxi",
+    "country": "brasil",
+    "type": "comida",
+    "elemento": "fogo",
+    "a": "brasil-025",
+    "b": "fogo"
+  },
+  {
+    "id": "brasil-027",
+    "emoji": "🦐",
+    "name": "Bobó de Camarão",
+    "country": "brasil",
+    "type": "comida",
+    "elemento": "fogo",
+    "a": "brasil-026",
+    "b": "fogo"
+  },
+  {
+    "id": "brasil-028",
+    "emoji": "🍲",
+    "name": "Caldo Verde",
+    "country": "brasil",
+    "type": "comida",
+    "elemento": "fogo",
+    "a": "brasil-027",
+    "b": "fogo"
+  },
+  {
+    "id": "brasil-029",
+    "emoji": "🥘",
+    "name": "Galinhada",
+    "country": "brasil",
+    "type": "comida",
+    "elemento": "fogo",
+    "a": "brasil-028",
+    "b": "fogo"
+  },
+  {
+    "id": "brasil-030",
+    "emoji": "🍖",
+    "name": "Costela",
+    "country": "brasil",
+    "type": "comida",
+    "elemento": "fogo",
+    "a": "brasil-029",
+    "b": "fogo"
+  },
+  {
+    "id": "brasil-031",
+    "emoji": "🧁",
+    "name": "Beijinho",
+    "country": "brasil",
+    "type": "comida",
+    "elemento": "fogo",
+    "a": "brasil-030",
+    "b": "fogo"
+  },
+  {
+    "id": "brasil-032",
+    "emoji": "🍪",
+    "name": "Biscoito de Polvilho",
+    "country": "brasil",
+    "type": "comida",
+    "elemento": "fogo",
+    "a": "brasil-031",
+    "b": "fogo"
+  },
+  {
+    "id": "brasil-033",
+    "emoji": "🌮",
+    "name": "Taco",
+    "country": "brasil",
+    "type": "comida",
+    "elemento": "fogo",
+    "a": "brasil-032",
+    "b": "fogo"
+  },
+  {
+    "id": "brasil-034",
+    "emoji": "🍜",
+    "name": "Macarrão",
+    "country": "brasil",
+    "type": "comida",
+    "elemento": "fogo",
+    "a": "brasil-033",
+    "b": "fogo"
+  },
+  {
+    "id": "brasil-035",
+    "emoji": "🥗",
+    "name": "Salada",
+    "country": "brasil",
+    "type": "comida",
+    "elemento": "fogo",
+    "a": "brasil-034",
+    "b": "fogo"
+  },
+  {
+    "id": "brasil-036",
+    "emoji": "🥤",
+    "name": "Guaraná",
+    "country": "brasil",
+    "type": "bebida",
+    "elemento": "agua",
+    "a": "brasil-035",
+    "b": "agua"
+  },
+  {
+    "id": "brasil-037",
+    "emoji": "🍹",
+    "name": "Caipirinha",
+    "country": "brasil",
+    "type": "bebida",
+    "elemento": "agua",
+    "a": "brasil-036",
+    "b": "agua"
+  },
+  {
+    "id": "brasil-038",
+    "emoji": "🧉",
+    "name": "Chimarrão",
+    "country": "brasil",
+    "type": "bebida",
+    "elemento": "agua",
+    "a": "brasil-037",
+    "b": "agua"
+  },
+  {
+    "id": "brasil-039",
+    "emoji": "☕",
+    "name": "Café",
+    "country": "brasil",
+    "type": "bebida",
+    "elemento": "agua",
+    "a": "brasil-038",
+    "b": "agua"
+  },
+  {
+    "id": "brasil-040",
+    "emoji": "🧃",
+    "name": "Suco de Maracujá",
+    "country": "brasil",
+    "type": "bebida",
+    "elemento": "agua",
+    "a": "brasil-039",
+    "b": "agua"
+  },
+  {
+    "id": "brasil-041",
+    "emoji": "🥛",
+    "name": "Leite",
+    "country": "brasil",
+    "type": "bebida",
+    "elemento": "agua",
+    "a": "brasil-040",
+    "b": "agua"
+  },
+  {
+    "id": "brasil-042",
+    "emoji": "🍺",
+    "name": "Cerveja",
+    "country": "brasil",
+    "type": "bebida",
+    "elemento": "agua",
+    "a": "brasil-041",
+    "b": "agua"
+  },
+  {
+    "id": "brasil-043",
+    "emoji": "🧋",
+    "name": "Água de Coco",
+    "country": "brasil",
+    "type": "bebida",
+    "elemento": "agua",
+    "a": "brasil-042",
+    "b": "agua"
+  },
+  {
+    "id": "brasil-044",
+    "emoji": "🍷",
+    "name": "Vinho",
+    "country": "brasil",
+    "type": "bebida",
+    "elemento": "agua",
+    "a": "brasil-043",
+    "b": "agua"
+  },
+  {
+    "id": "brasil-045",
+    "emoji": "🥂",
+    "name": "Champanhe",
+    "country": "brasil",
+    "type": "bebida",
+    "elemento": "agua",
+    "a": "brasil-044",
+    "b": "agua"
+  },
+  {
+    "id": "brasil-046",
+    "emoji": "🧊",
+    "name": "Tereré",
+    "country": "brasil",
+    "type": "bebida",
+    "elemento": "agua",
+    "a": "brasil-045",
+    "b": "agua"
+  },
+  {
+    "id": "brasil-047",
+    "emoji": "🍵",
+    "name": "Chá Mate",
+    "country": "brasil",
+    "type": "bebida",
+    "elemento": "agua",
+    "a": "brasil-046",
+    "b": "agua"
+  },
+  {
+    "id": "brasil-048",
+    "emoji": "🦫",
+    "name": "Capivara",
+    "country": "brasil",
+    "type": "animal",
+    "elemento": "vida",
+    "a": "brasil-047",
+    "b": "vida"
+  },
+  {
+    "id": "brasil-049",
+    "emoji": "🐆",
+    "name": "Onça Pintada",
+    "country": "brasil",
+    "type": "animal",
+    "elemento": "vida",
+    "a": "brasil-048",
+    "b": "vida"
+  },
+  {
+    "id": "brasil-050",
+    "emoji": "🦜",
+    "name": "Arara",
+    "country": "brasil",
+    "type": "animal",
+    "elemento": "vida",
+    "a": "brasil-049",
+    "b": "vida"
+  },
+  {
+    "id": "brasil-051",
+    "emoji": "🐢",
+    "name": "Tartaruga",
+    "country": "brasil",
+    "type": "animal",
+    "elemento": "vida",
+    "a": "brasil-050",
+    "b": "vida"
+  },
+  {
+    "id": "brasil-052",
+    "emoji": "🐒",
+    "name": "Mico Leão Dourado",
+    "country": "brasil",
+    "type": "animal",
+    "elemento": "vida",
+    "a": "brasil-051",
+    "b": "vida"
+  },
+  {
+    "id": "brasil-053",
+    "emoji": "🦥",
+    "name": "Bicho Preguiça",
+    "country": "brasil",
+    "type": "animal",
+    "elemento": "vida",
+    "a": "brasil-052",
+    "b": "vida"
+  },
+  {
+    "id": "brasil-054",
+    "emoji": "🦎",
+    "name": "Lagarto",
+    "country": "brasil",
+    "type": "animal",
+    "elemento": "vida",
+    "a": "brasil-053",
+    "b": "vida"
+  },
+  {
+    "id": "brasil-055",
+    "emoji": "🐍",
+    "name": "Jiboia",
+    "country": "brasil",
+    "type": "animal",
+    "elemento": "vida",
+    "a": "brasil-054",
+    "b": "vida"
+  },
+  {
+    "id": "brasil-056",
+    "emoji": "🦅",
+    "name": "Gavião",
+    "country": "brasil",
+    "type": "animal",
+    "elemento": "vida",
+    "a": "brasil-055",
+    "b": "vida"
+  },
+  {
+    "id": "brasil-057",
+    "emoji": "🦉",
+    "name": "Coruja",
+    "country": "brasil",
+    "type": "animal",
+    "elemento": "vida",
+    "a": "brasil-056",
+    "b": "vida"
+  },
+  {
+    "id": "brasil-058",
+    "emoji": "🐝",
+    "name": "Abelha",
+    "country": "brasil",
+    "type": "animal",
+    "elemento": "vida",
+    "a": "brasil-057",
+    "b": "vida"
+  },
+  {
+    "id": "brasil-059",
+    "emoji": "🦋",
+    "name": "Borboleta",
+    "country": "brasil",
+    "type": "animal",
+    "elemento": "vida",
+    "a": "brasil-058",
+    "b": "vida"
+  },
+  {
+    "id": "brasil-060",
+    "emoji": "🐬",
+    "name": "Golfinho",
+    "country": "brasil",
+    "type": "animal",
+    "elemento": "vida",
+    "a": "brasil-059",
+    "b": "vida"
+  },
+  {
+    "id": "brasil-061",
+    "emoji": "🐋",
+    "name": "Baleia",
+    "country": "brasil",
+    "type": "animal",
+    "elemento": "vida",
+    "a": "brasil-060",
+    "b": "vida"
+  },
+  {
+    "id": "brasil-062",
+    "emoji": "🦈",
+    "name": "Tubarão",
+    "country": "brasil",
+    "type": "animal",
+    "elemento": "vida",
+    "a": "brasil-061",
+    "b": "vida"
+  },
+  {
+    "id": "brasil-063",
+    "emoji": "🐊",
+    "name": "Jacaré",
+    "country": "brasil",
+    "type": "animal",
+    "elemento": "vida",
+    "a": "brasil-062",
+    "b": "vida"
+  },
+  {
+    "id": "brasil-064",
+    "emoji": "🦜",
+    "name": "Tucano",
+    "country": "brasil",
+    "type": "animal",
+    "elemento": "vida",
+    "a": "brasil-063",
+    "b": "vida"
+  },
+  {
+    "id": "brasil-065",
+    "emoji": "🐦",
+    "name": "Sabiá",
+    "country": "brasil",
+    "type": "animal",
+    "elemento": "vida",
+    "a": "brasil-064",
+    "b": "vida"
+  },
+  {
+    "id": "brasil-066",
+    "emoji": "🐔",
+    "name": "Galinha",
+    "country": "brasil",
+    "type": "animal",
+    "elemento": "vida",
+    "a": "brasil-065",
+    "b": "vida"
+  },
+  {
+    "id": "brasil-067",
+    "emoji": "🐶",
+    "name": "Cachorro",
+    "country": "brasil",
+    "type": "animal",
+    "elemento": "vida",
+    "a": "brasil-066",
+    "b": "vida"
+  },
+  {
+    "id": "brasil-068",
+    "emoji": "🐱",
+    "name": "Gato",
+    "country": "brasil",
+    "type": "animal",
+    "elemento": "vida",
+    "a": "brasil-067",
+    "b": "vida"
+  },
+  {
+    "id": "brasil-069",
+    "emoji": "🐴",
+    "name": "Cavalo",
+    "country": "brasil",
+    "type": "animal",
+    "elemento": "vida",
+    "a": "brasil-068",
+    "b": "vida"
+  },
+  {
+    "id": "brasil-070",
+    "emoji": "🐮",
+    "name": "Boi",
+    "country": "brasil",
+    "type": "animal",
+    "elemento": "vida",
+    "a": "brasil-069",
+    "b": "vida"
+  },
+  {
+    "id": "brasil-071",
+    "emoji": "🐷",
+    "name": "Porco",
+    "country": "brasil",
+    "type": "animal",
+    "elemento": "vida",
+    "a": "brasil-070",
+    "b": "vida"
+  },
+  {
+    "id": "brasil-072",
+    "emoji": "🐑",
+    "name": "Ovelha",
+    "country": "brasil",
+    "type": "animal",
+    "elemento": "vida",
+    "a": "brasil-071",
+    "b": "vida"
+  },
+  {
+    "id": "brasil-073",
+    "emoji": "🐐",
+    "name": "Cabra",
+    "country": "brasil",
+    "type": "animal",
+    "elemento": "vida",
+    "a": "brasil-072",
+    "b": "vida"
+  },
+  {
+    "id": "brasil-074",
+    "emoji": "🐰",
+    "name": "Coelho",
+    "country": "brasil",
+    "type": "animal",
+    "elemento": "vida",
+    "a": "brasil-073",
+    "b": "vida"
+  },
+  {
+    "id": "brasil-075",
+    "emoji": "🐭",
+    "name": "Rato",
+    "country": "brasil",
+    "type": "animal",
+    "elemento": "vida",
+    "a": "brasil-074",
+    "b": "vida"
+  },
+  {
+    "id": "brasil-076",
+    "emoji": "🦔",
+    "name": "Ouriço",
+    "country": "brasil",
+    "type": "animal",
+    "elemento": "vida",
+    "a": "brasil-075",
+    "b": "vida"
+  },
+  {
+    "id": "brasil-077",
+    "emoji": "🐘",
+    "name": "Elefante",
+    "country": "brasil",
+    "type": "animal",
+    "elemento": "vida",
+    "a": "brasil-076",
+    "b": "vida"
+  },
+  {
+    "id": "brasil-078",
+    "emoji": "🦁",
+    "name": "Leão",
+    "country": "brasil",
+    "type": "animal",
+    "elemento": "vida",
+    "a": "brasil-077",
+    "b": "vida"
+  },
+  {
+    "id": "brasil-079",
+    "emoji": "🐯",
+    "name": "Tigre",
+    "country": "brasil",
+    "type": "animal",
+    "elemento": "vida",
+    "a": "brasil-078",
+    "b": "vida"
+  },
+  {
+    "id": "brasil-080",
+    "emoji": "🦒",
+    "name": "Girafa",
+    "country": "brasil",
+    "type": "animal",
+    "elemento": "vida",
+    "a": "brasil-079",
+    "b": "vida"
+  },
+  {
+    "id": "brasil-081",
+    "emoji": "🦓",
+    "name": "Zebra",
+    "country": "brasil",
+    "type": "animal",
+    "elemento": "vida",
+    "a": "brasil-080",
+    "b": "vida"
+  },
+  {
+    "id": "brasil-082",
+    "emoji": "🐻",
+    "name": "Urso",
+    "country": "brasil",
+    "type": "animal",
+    "elemento": "vida",
+    "a": "brasil-081",
+    "b": "vida"
+  },
+  {
+    "id": "brasil-083",
+    "emoji": "🌳",
+    "name": "Amazônia",
+    "country": "brasil",
+    "type": "lugar",
+    "elemento": "terra",
+    "a": "brasil-082",
+    "b": "terra"
+  },
+  {
+    "id": "brasil-084",
+    "emoji": "🏖️",
+    "name": "Copacabana",
+    "country": "brasil",
+    "type": "lugar",
+    "elemento": "terra",
+    "a": "brasil-083",
+    "b": "terra"
+  },
+  {
+    "id": "brasil-085",
+    "emoji": "🗼",
+    "name": "Cristo Redentor",
+    "country": "brasil",
+    "type": "lugar",
+    "elemento": "terra",
+    "a": "brasil-084",
+    "b": "terra"
+  },
+  {
+    "id": "brasil-086",
+    "emoji": "🏔️",
+    "name": "Pão de Açúcar",
+    "country": "brasil",
+    "type": "lugar",
+    "elemento": "terra",
+    "a": "brasil-085",
+    "b": "terra"
+  },
+  {
+    "id": "brasil-087",
+    "emoji": "🏝️",
+    "name": "Fernando de Noronha",
+    "country": "brasil",
+    "type": "lugar",
+    "elemento": "terra",
+    "a": "brasil-086",
+    "b": "terra"
+  },
+  {
+    "id": "brasil-088",
+    "emoji": "🏛️",
+    "name": "Ouro Preto",
+    "country": "brasil",
+    "type": "lugar",
+    "elemento": "terra",
+    "a": "brasil-087",
+    "b": "terra"
+  },
+  {
+    "id": "brasil-089",
+    "emoji": "🌅",
+    "name": "Salvador",
+    "country": "brasil",
+    "type": "lugar",
+    "elemento": "terra",
+    "a": "brasil-088",
+    "b": "terra"
+  },
+  {
+    "id": "brasil-090",
+    "emoji": "🌇",
+    "name": "São Paulo",
+    "country": "brasil",
+    "type": "lugar",
+    "elemento": "terra",
+    "a": "brasil-089",
+    "b": "terra"
+  },
+  {
+    "id": "brasil-091",
+    "emoji": "🏙️",
+    "name": "Brasília",
+    "country": "brasil",
+    "type": "lugar",
+    "elemento": "terra",
+    "a": "brasil-090",
+    "b": "terra"
+  },
+  {
+    "id": "brasil-092",
+    "emoji": "🌊",
+    "name": "Praia",
+    "country": "brasil",
+    "type": "lugar",
+    "elemento": "terra",
+    "a": "brasil-091",
+    "b": "terra"
+  },
+  {
+    "id": "brasil-093",
+    "emoji": "🏞️",
+    "name": "Cachoeira",
+    "country": "brasil",
+    "type": "lugar",
+    "elemento": "terra",
+    "a": "brasil-092",
+    "b": "terra"
+  },
+  {
+    "id": "brasil-094",
+    "emoji": "🌋",
+    "name": "Chapada",
+    "country": "brasil",
+    "type": "lugar",
+    "elemento": "terra",
+    "a": "brasil-093",
+    "b": "terra"
+  },
+  {
+    "id": "brasil-095",
+    "emoji": "🏜️",
+    "name": "Sertão",
+    "country": "brasil",
+    "type": "lugar",
+    "elemento": "terra",
+    "a": "brasil-094",
+    "b": "terra"
+  },
+  {
+    "id": "brasil-096",
+    "emoji": "🌾",
+    "name": "Pantanal",
+    "country": "brasil",
+    "type": "lugar",
+    "elemento": "terra",
+    "a": "brasil-095",
+    "b": "terra"
+  },
+  {
+    "id": "brasil-097",
+    "emoji": "🌸",
+    "name": "Ipê Amarelo",
+    "country": "brasil",
+    "type": "lugar",
+    "elemento": "terra",
+    "a": "brasil-096",
+    "b": "terra"
+  },
+  {
+    "id": "brasil-098",
+    "emoji": "🌺",
+    "name": "Vitória Régia",
+    "country": "brasil",
+    "type": "planta",
+    "elemento": "terra",
+    "a": "brasil-097",
+    "b": "terra"
+  },
+  {
+    "id": "brasil-099",
+    "emoji": "🌻",
+    "name": "Girassol",
+    "country": "brasil",
+    "type": "planta",
+    "elemento": "terra",
+    "a": "brasil-098",
+    "b": "terra"
+  },
+  {
+    "id": "brasil-100",
+    "emoji": "🌹",
+    "name": "Rosa",
+    "country": "brasil",
+    "type": "planta",
+    "elemento": "terra",
+    "a": "brasil-099",
+    "b": "terra"
+  },
+  {
+    "id": "brasil-101",
+    "emoji": "🌵",
+    "name": "Cacto",
+    "country": "brasil",
+    "type": "planta",
+    "elemento": "terra",
+    "a": "brasil-100",
+    "b": "terra"
+  },
+  {
+    "id": "brasil-102",
+    "emoji": "🌿",
+    "name": "Samambaia",
+    "country": "brasil",
+    "type": "planta",
+    "elemento": "terra",
+    "a": "brasil-101",
+    "b": "terra"
+  },
+  {
+    "id": "brasil-103",
+    "emoji": "🍀",
+    "name": "Trevo",
+    "country": "brasil",
+    "type": "planta",
+    "elemento": "terra",
+    "a": "brasil-102",
+    "b": "terra"
+  },
+  {
+    "id": "brasil-104",
+    "emoji": "🌴",
+    "name": "Coqueiro",
+    "country": "brasil",
+    "type": "planta",
+    "elemento": "terra",
+    "a": "brasil-103",
+    "b": "terra"
+  },
+  {
+    "id": "brasil-105",
+    "emoji": "🍌",
+    "name": "Bananeira",
+    "country": "brasil",
+    "type": "planta",
+    "elemento": "terra",
+    "a": "brasil-104",
+    "b": "terra"
+  },
+  {
+    "id": "brasil-106",
+    "emoji": "🥭",
+    "name": "Mangueira",
+    "country": "brasil",
+    "type": "planta",
+    "elemento": "terra",
+    "a": "brasil-105",
+    "b": "terra"
+  },
+  {
+    "id": "brasil-107",
+    "emoji": "🌳",
+    "name": "Jatobá",
+    "country": "brasil",
+    "type": "planta",
+    "elemento": "terra",
+    "a": "brasil-106",
+    "b": "terra"
+  },
+  {
+    "id": "brasil-108",
+    "emoji": "🌲",
+    "name": "Pinheiro",
+    "country": "brasil",
+    "type": "planta",
+    "elemento": "terra",
+    "a": "brasil-107",
+    "b": "terra"
+  },
+  {
+    "id": "brasil-109",
+    "emoji": "🍃",
+    "name": "Folha",
+    "country": "brasil",
+    "type": "planta",
+    "elemento": "terra",
+    "a": "brasil-108",
+    "b": "terra"
+  },
+  {
+    "id": "brasil-110",
+    "emoji": "🌼",
+    "name": "Margarida",
+    "country": "brasil",
+    "type": "planta",
+    "elemento": "terra",
+    "a": "brasil-109",
+    "b": "terra"
+  },
+  {
+    "id": "brasil-111",
+    "emoji": "🌷",
+    "name": "Tulipa",
+    "country": "brasil",
+    "type": "planta",
+    "elemento": "terra",
+    "a": "brasil-110",
+    "b": "terra"
+  },
+  {
+    "id": "brasil-112",
+    "emoji": "🍄",
+    "name": "Cogumelo",
+    "country": "brasil",
+    "type": "planta",
+    "elemento": "terra",
+    "a": "brasil-111",
+    "b": "terra"
+  },
+  {
+    "id": "brasil-113",
+    "emoji": "🌰",
+    "name": "Castanha",
+    "country": "brasil",
+    "type": "planta",
+    "elemento": "terra",
+    "a": "brasil-112",
+    "b": "terra"
+  },
+  {
+    "id": "brasil-114",
+    "emoji": "🥥",
+    "name": "Coco",
+    "country": "brasil",
+    "type": "planta",
+    "elemento": "terra",
+    "a": "brasil-113",
+    "b": "terra"
+  },
+  {
+    "id": "brasil-115",
+    "emoji": "🍊",
+    "name": "Laranjeira",
+    "country": "brasil",
+    "type": "planta",
+    "elemento": "terra",
+    "a": "brasil-114",
+    "b": "terra"
+  },
+  {
+    "id": "brasil-116",
+    "emoji": "🍋",
+    "name": "Limão",
+    "country": "brasil",
+    "type": "planta",
+    "elemento": "terra",
+    "a": "brasil-115",
+    "b": "terra"
+  },
+  {
+    "id": "brasil-117",
+    "emoji": "🍓",
+    "name": "Morango",
+    "country": "brasil",
+    "type": "planta",
+    "elemento": "terra",
+    "a": "brasil-116",
+    "b": "terra"
+  },
+  {
+    "id": "brasil-118",
+    "emoji": "🎶",
+    "name": "Samba",
+    "country": "brasil",
+    "type": "cultura",
+    "elemento": "ar",
+    "a": "brasil-117",
+    "b": "ar"
+  },
+  {
+    "id": "brasil-119",
+    "emoji": "🎵",
+    "name": "Funk",
+    "country": "brasil",
+    "type": "cultura",
+    "elemento": "ar",
+    "a": "brasil-118",
+    "b": "ar"
+  },
+  {
+    "id": "brasil-120",
+    "emoji": "🪗",
+    "name": "Forró",
+    "country": "brasil",
+    "type": "cultura",
+    "elemento": "ar",
+    "a": "brasil-119",
+    "b": "ar"
+  },
+  {
+    "id": "brasil-121",
+    "emoji": "🎭",
+    "name": "Carnaval",
+    "country": "brasil",
+    "type": "cultura",
+    "elemento": "ar",
+    "a": "brasil-120",
+    "b": "ar"
+  },
+  {
+    "id": "brasil-122",
+    "emoji": "🥁",
+    "name": "Frevo",
+    "country": "brasil",
+    "type": "cultura",
+    "elemento": "ar",
+    "a": "brasil-121",
+    "b": "ar"
+  },
+  {
+    "id": "brasil-123",
+    "emoji": "🤸",
+    "name": "Capoeira",
+    "country": "brasil",
+    "type": "cultura",
+    "elemento": "ar",
+    "a": "brasil-122",
+    "b": "ar"
+  },
+  {
+    "id": "brasil-124",
+    "emoji": "💃",
+    "name": "Forró Pé de Serra",
+    "country": "brasil",
+    "type": "cultura",
+    "elemento": "ar",
+    "a": "brasil-123",
+    "b": "ar"
+  },
+  {
+    "id": "brasil-125",
+    "emoji": "🎤",
+    "name": "Pagode",
+    "country": "brasil",
+    "type": "cultura",
+    "elemento": "ar",
+    "a": "brasil-124",
+    "b": "ar"
+  },
+  {
+    "id": "brasil-126",
+    "emoji": "🎸",
+    "name": "Sertanejo",
+    "country": "brasil",
+    "type": "cultura",
+    "elemento": "ar",
+    "a": "brasil-125",
+    "b": "ar"
+  },
+  {
+    "id": "brasil-127",
+    "emoji": "🎻",
+    "name": "Choro",
+    "country": "brasil",
+    "type": "cultura",
+    "elemento": "ar",
+    "a": "brasil-126",
+    "b": "ar"
+  },
+  {
+    "id": "brasil-128",
+    "emoji": "🎺",
+    "name": "Marchinha",
+    "country": "brasil",
+    "type": "cultura",
+    "elemento": "ar",
+    "a": "brasil-127",
+    "b": "ar"
+  },
+  {
+    "id": "brasil-129",
+    "emoji": "🎆",
+    "name": "Festa Junina",
+    "country": "brasil",
+    "type": "cultura",
+    "elemento": "ar",
+    "a": "brasil-128",
+    "b": "ar"
+  },
+  {
+    "id": "brasil-130",
+    "emoji": "🎇",
+    "name": "Fogos",
+    "country": "brasil",
+    "type": "cultura",
+    "elemento": "ar",
+    "a": "brasil-129",
+    "b": "ar"
+  },
+  {
+    "id": "brasil-131",
+    "emoji": "🎪",
+    "name": "Circo",
+    "country": "brasil",
+    "type": "cultura",
+    "elemento": "ar",
+    "a": "brasil-130",
+    "b": "ar"
+  },
+  {
+    "id": "brasil-132",
+    "emoji": "🎬",
+    "name": "Cinema",
+    "country": "brasil",
+    "type": "cultura",
+    "elemento": "ar",
+    "a": "brasil-131",
+    "b": "ar"
+  },
+  {
+    "id": "brasil-133",
+    "emoji": "📚",
+    "name": "Literatura",
+    "country": "brasil",
+    "type": "cultura",
+    "elemento": "ar",
+    "a": "brasil-132",
+    "b": "ar"
+  },
+  {
+    "id": "brasil-134",
+    "emoji": "🎨",
+    "name": "Pintura",
+    "country": "brasil",
+    "type": "cultura",
+    "elemento": "ar",
+    "a": "brasil-133",
+    "b": "ar"
+  },
+  {
+    "id": "brasil-135",
+    "emoji": "🩰",
+    "name": "Balé",
+    "country": "brasil",
+    "type": "cultura",
+    "elemento": "ar",
+    "a": "brasil-134",
+    "b": "ar"
+  },
+  {
+    "id": "brasil-136",
+    "emoji": "🎹",
+    "name": "Piano",
+    "country": "brasil",
+    "type": "cultura",
+    "elemento": "ar",
+    "a": "brasil-135",
+    "b": "ar"
+  },
+  {
+    "id": "brasil-137",
+    "emoji": "🥁",
+    "name": "Bateria",
+    "country": "brasil",
+    "type": "cultura",
+    "elemento": "ar",
+    "a": "brasil-136",
+    "b": "ar"
+  },
+  {
+    "id": "brasil-138",
+    "emoji": "🎷",
+    "name": "Saxofone",
+    "country": "brasil",
+    "type": "cultura",
+    "elemento": "ar",
+    "a": "brasil-137",
+    "b": "ar"
+  },
+  {
+    "id": "brasil-139",
+    "emoji": "🎺",
+    "name": "Trompete",
+    "country": "brasil",
+    "type": "cultura",
+    "elemento": "ar",
+    "a": "brasil-138",
+    "b": "ar"
+  },
+  {
+    "id": "brasil-140",
+    "emoji": "🎸",
+    "name": "Violão",
+    "country": "brasil",
+    "type": "cultura",
+    "elemento": "ar",
+    "a": "brasil-139",
+    "b": "ar"
+  },
+  {
+    "id": "brasil-141",
+    "emoji": "🪘",
+    "name": "Tambor",
+    "country": "brasil",
+    "type": "cultura",
+    "elemento": "ar",
+    "a": "brasil-140",
+    "b": "ar"
+  },
+  {
+    "id": "brasil-142",
+    "emoji": "🎧",
+    "name": "Música",
+    "country": "brasil",
+    "type": "cultura",
+    "elemento": "ar",
+    "a": "brasil-141",
+    "b": "ar"
+  },
+  {
+    "id": "brasil-143",
+    "emoji": "📖",
+    "name": "Livro",
+    "country": "brasil",
+    "type": "cultura",
+    "elemento": "ar",
+    "a": "brasil-142",
+    "b": "ar"
+  },
+  {
+    "id": "brasil-144",
+    "emoji": "✏️",
+    "name": "Poesia",
+    "country": "brasil",
+    "type": "cultura",
+    "elemento": "ar",
+    "a": "brasil-143",
+    "b": "ar"
+  },
+  {
+    "id": "brasil-145",
+    "emoji": "🎭",
+    "name": "Teatro",
+    "country": "brasil",
+    "type": "cultura",
+    "elemento": "ar",
+    "a": "brasil-144",
+    "b": "ar"
+  },
+  {
+    "id": "brasil-146",
+    "emoji": "🎥",
+    "name": "Novela",
+    "country": "brasil",
+    "type": "cultura",
+    "elemento": "ar",
+    "a": "brasil-145",
+    "b": "ar"
+  },
+  {
+    "id": "brasil-147",
+    "emoji": "📺",
+    "name": "Televisão",
+    "country": "brasil",
+    "type": "cultura",
+    "elemento": "ar",
+    "a": "brasil-146",
+    "b": "ar"
+  },
+  {
+    "id": "brasil-148",
+    "emoji": "⚽",
+    "name": "Futebol",
+    "country": "brasil",
+    "type": "esporte",
+    "elemento": "energia",
+    "a": "brasil-147",
+    "b": "energia"
+  },
+  {
+    "id": "brasil-149",
+    "emoji": "👑",
+    "name": "Pelé",
+    "country": "brasil",
+    "type": "esporte",
+    "elemento": "energia",
+    "a": "brasil-148",
+    "b": "energia"
+  },
+  {
+    "id": "brasil-150",
+    "emoji": "⭐",
+    "name": "Neymar",
+    "country": "brasil",
+    "type": "esporte",
+    "elemento": "energia",
+    "a": "brasil-149",
+    "b": "energia"
+  },
+  {
+    "id": "brasil-151",
+    "emoji": "🏟️",
+    "name": "Maracanã",
+    "country": "brasil",
+    "type": "esporte",
+    "elemento": "energia",
+    "a": "brasil-150",
+    "b": "energia"
+  },
+  {
+    "id": "brasil-152",
+    "emoji": "🥅",
+    "name": "Gol",
+    "country": "brasil",
+    "type": "esporte",
+    "elemento": "energia",
+    "a": "brasil-151",
+    "b": "energia"
+  },
+  {
+    "id": "brasil-153",
+    "emoji": "🏆",
+    "name": "Troféu",
+    "country": "brasil",
+    "type": "esporte",
+    "elemento": "energia",
+    "a": "brasil-152",
+    "b": "energia"
+  },
+  {
+    "id": "brasil-154",
+    "emoji": "🏅",
+    "name": "Medalha",
+    "country": "brasil",
+    "type": "esporte",
+    "elemento": "energia",
+    "a": "brasil-153",
+    "b": "energia"
+  },
+  {
+    "id": "brasil-155",
+    "emoji": "🏃",
+    "name": "Corrida",
+    "country": "brasil",
+    "type": "esporte",
+    "elemento": "energia",
+    "a": "brasil-154",
+    "b": "energia"
+  },
+  {
+    "id": "brasil-156",
+    "emoji": "🏊",
+    "name": "Natação",
+    "country": "brasil",
+    "type": "esporte",
+    "elemento": "energia",
+    "a": "brasil-155",
+    "b": "energia"
+  },
+  {
+    "id": "brasil-157",
+    "emoji": "🚴",
+    "name": "Ciclismo",
+    "country": "brasil",
+    "type": "esporte",
+    "elemento": "energia",
+    "a": "brasil-156",
+    "b": "energia"
+  },
+  {
+    "id": "brasil-158",
+    "emoji": "🏐",
+    "name": "Vôlei",
+    "country": "brasil",
+    "type": "esporte",
+    "elemento": "energia",
+    "a": "brasil-157",
+    "b": "energia"
+  },
+  {
+    "id": "brasil-159",
+    "emoji": "🏀",
+    "name": "Basquete",
+    "country": "brasil",
+    "type": "esporte",
+    "elemento": "energia",
+    "a": "brasil-158",
+    "b": "energia"
+  },
+  {
+    "id": "brasil-160",
+    "emoji": "🥋",
+    "name": "Judô",
+    "country": "brasil",
+    "type": "esporte",
+    "elemento": "energia",
+    "a": "brasil-159",
+    "b": "energia"
+  },
+  {
+    "id": "brasil-161",
+    "emoji": "🥊",
+    "name": "Boxe",
+    "country": "brasil",
+    "type": "esporte",
+    "elemento": "energia",
+    "a": "brasil-160",
+    "b": "energia"
+  },
+  {
+    "id": "brasil-162",
+    "emoji": "🏄",
+    "name": "Surfe",
+    "country": "brasil",
+    "type": "esporte",
+    "elemento": "energia",
+    "a": "brasil-161",
+    "b": "energia"
+  },
+  {
+    "id": "brasil-163",
+    "emoji": "🏇",
+    "name": "Hipismo",
+    "country": "brasil",
+    "type": "esporte",
+    "elemento": "energia",
+    "a": "brasil-162",
+    "b": "energia"
+  },
+  {
+    "id": "brasil-164",
+    "emoji": "🤸",
+    "name": "Ginástica",
+    "country": "brasil",
+    "type": "esporte",
+    "elemento": "energia",
+    "a": "brasil-163",
+    "b": "energia"
+  },
+  {
+    "id": "brasil-165",
+    "emoji": "🎾",
+    "name": "Tênis",
+    "country": "brasil",
+    "type": "esporte",
+    "elemento": "energia",
+    "a": "brasil-164",
+    "b": "energia"
+  },
+  {
+    "id": "brasil-166",
+    "emoji": "🏓",
+    "name": "Tênis de Mesa",
+    "country": "brasil",
+    "type": "esporte",
+    "elemento": "energia",
+    "a": "brasil-165",
+    "b": "energia"
+  },
+  {
+    "id": "brasil-167",
+    "emoji": "⛳",
+    "name": "Golfe",
+    "country": "brasil",
+    "type": "esporte",
+    "elemento": "energia",
+    "a": "brasil-166",
+    "b": "energia"
+  },
+  {
+    "id": "brasil-168",
+    "emoji": "🛏️",
+    "name": "Rede",
+    "country": "brasil",
+    "type": "objeto",
+    "elemento": "terra",
+    "a": "brasil-167",
+    "b": "terra"
+  },
+  {
+    "id": "brasil-169",
+    "emoji": "🩴",
+    "name": "Chinelo",
+    "country": "brasil",
+    "type": "objeto",
+    "elemento": "terra",
+    "a": "brasil-168",
+    "b": "terra"
+  },
+  {
+    "id": "brasil-170",
+    "emoji": "👒",
+    "name": "Chapéu",
+    "country": "brasil",
+    "type": "objeto",
+    "elemento": "terra",
+    "a": "brasil-169",
+    "b": "terra"
+  },
+  {
+    "id": "brasil-171",
+    "emoji": "🕶️",
+    "name": "Óculos de Sol",
+    "country": "brasil",
+    "type": "objeto",
+    "elemento": "terra",
+    "a": "brasil-170",
+    "b": "terra"
+  },
+  {
+    "id": "brasil-172",
+    "emoji": "🎒",
+    "name": "Mochila",
+    "country": "brasil",
+    "type": "objeto",
+    "elemento": "terra",
+    "a": "brasil-171",
+    "b": "terra"
+  },
+  {
+    "id": "brasil-173",
+    "emoji": "📱",
+    "name": "Celular",
+    "country": "brasil",
+    "type": "objeto",
+    "elemento": "terra",
+    "a": "brasil-172",
+    "b": "terra"
+  },
+  {
+    "id": "brasil-174",
+    "emoji": "💻",
+    "name": "Computador",
+    "country": "brasil",
+    "type": "objeto",
+    "elemento": "terra",
+    "a": "brasil-173",
+    "b": "terra"
+  },
+  {
+    "id": "brasil-175",
+    "emoji": "📷",
+    "name": "Câmera",
+    "country": "brasil",
+    "type": "objeto",
+    "elemento": "terra",
+    "a": "brasil-174",
+    "b": "terra"
+  },
+  {
+    "id": "brasil-176",
+    "emoji": "🚗",
+    "name": "Carro",
+    "country": "brasil",
+    "type": "objeto",
+    "elemento": "terra",
+    "a": "brasil-175",
+    "b": "terra"
+  },
+  {
+    "id": "brasil-177",
+    "emoji": "🚌",
+    "name": "Ônibus",
+    "country": "brasil",
+    "type": "objeto",
+    "elemento": "terra",
+    "a": "brasil-176",
+    "b": "terra"
+  },
+  {
+    "id": "brasil-178",
+    "emoji": "🚲",
+    "name": "Bicicleta",
+    "country": "brasil",
+    "type": "objeto",
+    "elemento": "terra",
+    "a": "brasil-177",
+    "b": "terra"
+  },
+  {
+    "id": "brasil-179",
+    "emoji": "✈️",
+    "name": "Avião",
+    "country": "brasil",
+    "type": "objeto",
+    "elemento": "terra",
+    "a": "brasil-178",
+    "b": "terra"
+  },
+  {
+    "id": "brasil-180",
+    "emoji": "🚢",
+    "name": "Navio",
+    "country": "brasil",
+    "type": "objeto",
+    "elemento": "terra",
+    "a": "brasil-179",
+    "b": "terra"
+  },
+  {
+    "id": "brasil-181",
+    "emoji": "🏠",
+    "name": "Casa",
+    "country": "brasil",
+    "type": "objeto",
+    "elemento": "terra",
+    "a": "brasil-180",
+    "b": "terra"
+  },
+  {
+    "id": "brasil-182",
+    "emoji": "🏫",
+    "name": "Escola",
+    "country": "brasil",
+    "type": "objeto",
+    "elemento": "terra",
+    "a": "brasil-181",
+    "b": "terra"
+  },
+  {
+    "id": "brasil-183",
+    "emoji": "🏥",
+    "name": "Hospital",
+    "country": "brasil",
+    "type": "objeto",
+    "elemento": "terra",
+    "a": "brasil-182",
+    "b": "terra"
+  },
+  {
+    "id": "brasil-184",
+    "emoji": "🏦",
+    "name": "Banco",
+    "country": "brasil",
+    "type": "objeto",
+    "elemento": "terra",
+    "a": "brasil-183",
+    "b": "terra"
+  },
+  {
+    "id": "brasil-185",
+    "emoji": "🛒",
+    "name": "Mercado",
+    "country": "brasil",
+    "type": "objeto",
+    "elemento": "terra",
+    "a": "brasil-184",
+    "b": "terra"
+  },
+  {
+    "id": "brasil-186",
+    "emoji": "🍽️",
+    "name": "Prato",
+    "country": "brasil",
+    "type": "objeto",
+    "elemento": "terra",
+    "a": "brasil-185",
+    "b": "terra"
+  },
+  {
+    "id": "brasil-187",
+    "emoji": "🥄",
+    "name": "Colher",
+    "country": "brasil",
+    "type": "objeto",
+    "elemento": "terra",
+    "a": "brasil-186",
+    "b": "terra"
+  },
+  {
+    "id": "brasil-188",
+    "emoji": "🍴",
+    "name": "Garfo",
+    "country": "brasil",
+    "type": "objeto",
+    "elemento": "terra",
+    "a": "brasil-187",
+    "b": "terra"
+  },
+  {
+    "id": "brasil-189",
+    "emoji": "🔪",
+    "name": "Faca",
+    "country": "brasil",
+    "type": "objeto",
+    "elemento": "terra",
+    "a": "brasil-188",
+    "b": "terra"
+  },
+  {
+    "id": "brasil-190",
+    "emoji": "☂️",
+    "name": "Guarda Chuva",
+    "country": "brasil",
+    "type": "objeto",
+    "elemento": "terra",
+    "a": "brasil-189",
+    "b": "terra"
+  },
+  {
+    "id": "brasil-191",
+    "emoji": "🧢",
+    "name": "Boné",
+    "country": "brasil",
+    "type": "objeto",
+    "elemento": "terra",
+    "a": "brasil-190",
+    "b": "terra"
+  },
+  {
+    "id": "brasil-192",
+    "emoji": "👕",
+    "name": "Camiseta",
+    "country": "brasil",
+    "type": "objeto",
+    "elemento": "terra",
+    "a": "brasil-191",
+    "b": "terra"
+  },
+  {
+    "id": "brasil-193",
+    "emoji": "👖",
+    "name": "Calça",
+    "country": "brasil",
+    "type": "objeto",
+    "elemento": "terra",
+    "a": "brasil-192",
+    "b": "terra"
+  },
+  {
+    "id": "brasil-194",
+    "emoji": "🧦",
+    "name": "Meia",
+    "country": "brasil",
+    "type": "objeto",
+    "elemento": "terra",
+    "a": "brasil-193",
+    "b": "terra"
+  },
+  {
+    "id": "brasil-195",
+    "emoji": "⌚",
+    "name": "Relógio",
+    "country": "brasil",
+    "type": "objeto",
+    "elemento": "terra",
+    "a": "brasil-194",
+    "b": "terra"
+  },
+  {
+    "id": "brasil-196",
+    "emoji": "💡",
+    "name": "Lâmpada",
+    "country": "brasil",
+    "type": "objeto",
+    "elemento": "terra",
+    "a": "brasil-195",
+    "b": "terra"
+  },
+  {
+    "id": "brasil-197",
+    "emoji": "🔑",
+    "name": "Chave",
+    "country": "brasil",
+    "type": "objeto",
+    "elemento": "terra",
+    "a": "brasil-196",
+    "b": "terra"
+  },
+  {
+    "id": "brasil-198",
+    "emoji": "📦",
+    "name": "Caixa",
+    "country": "brasil",
+    "type": "objeto",
+    "elemento": "terra",
+    "a": "brasil-197",
+    "b": "terra"
+  },
+  {
+    "id": "brasil-199",
+    "emoji": "🎁",
+    "name": "Presente",
+    "country": "brasil",
+    "type": "objeto",
+    "elemento": "terra",
+    "a": "brasil-198",
+    "b": "terra"
+  },
+  {
+    "id": "brasil-200",
+    "emoji": "🧸",
+    "name": "Urso de Pelúcia",
+    "country": "brasil",
+    "type": "objeto",
+    "elemento": "terra",
+    "a": "brasil-199",
+    "b": "terra"
+  },
+  {
+    "id": "brasil-201",
+    "emoji": "🪁",
+    "name": "Pipa",
+    "country": "brasil",
+    "type": "objeto",
+    "elemento": "terra",
+    "a": "brasil-200",
+    "b": "terra"
+  },
+  {
+    "id": "brasil-202",
+    "emoji": "👨‍🏫",
+    "name": "Professor",
+    "country": "brasil",
+    "type": "pessoa",
+    "elemento": "vida",
+    "a": "brasil-201",
+    "b": "vida"
+  },
+  {
+    "id": "brasil-203",
+    "emoji": "👩‍⚕️",
+    "name": "Médica",
+    "country": "brasil",
+    "type": "pessoa",
+    "elemento": "vida",
+    "a": "brasil-202",
+    "b": "vida"
+  },
+  {
+    "id": "brasil-204",
+    "emoji": "👨‍🍳",
+    "name": "Cozinheiro",
+    "country": "brasil",
+    "type": "pessoa",
+    "elemento": "vida",
+    "a": "brasil-203",
+    "b": "vida"
+  },
+  {
+    "id": "brasil-205",
+    "emoji": "👩‍🎤",
+    "name": "Cantora",
+    "country": "brasil",
+    "type": "pessoa",
+    "elemento": "vida",
+    "a": "brasil-204",
+    "b": "vida"
+  },
+  {
+    "id": "brasil-206",
+    "emoji": "👨‍🎨",
+    "name": "Pintor",
+    "country": "brasil",
+    "type": "pessoa",
+    "elemento": "vida",
+    "a": "brasil-205",
+    "b": "vida"
+  },
+  {
+    "id": "brasil-207",
+    "emoji": "👩‍🚀",
+    "name": "Astronauta",
+    "country": "brasil",
+    "type": "pessoa",
+    "elemento": "vida",
+    "a": "brasil-206",
+    "b": "vida"
+  },
+  {
+    "id": "brasil-208",
+    "emoji": "👨‍🌾",
+    "name": "Fazendeiro",
+    "country": "brasil",
+    "type": "pessoa",
+    "elemento": "vida",
+    "a": "brasil-207",
+    "b": "vida"
+  },
+  {
+    "id": "brasil-209",
+    "emoji": "👩‍🏭",
+    "name": "Engenheira",
+    "country": "brasil",
+    "type": "pessoa",
+    "elemento": "vida",
+    "a": "brasil-208",
+    "b": "vida"
+  },
+  {
+    "id": "brasil-210",
+    "emoji": "👨‍🔧",
+    "name": "Mecânico",
+    "country": "brasil",
+    "type": "pessoa",
+    "elemento": "vida",
+    "a": "brasil-209",
+    "b": "vida"
+  },
+  {
+    "id": "brasil-211",
+    "emoji": "👩‍💼",
+    "name": "Advogada",
+    "country": "brasil",
+    "type": "pessoa",
+    "elemento": "vida",
+    "a": "brasil-210",
+    "b": "vida"
+  },
+  {
+    "id": "brasil-212",
+    "emoji": "👨‍✈️",
+    "name": "Piloto",
+    "country": "brasil",
+    "type": "pessoa",
+    "elemento": "vida",
+    "a": "brasil-211",
+    "b": "vida"
+  },
+  {
+    "id": "brasil-213",
+    "emoji": "👩‍🎓",
+    "name": "Estudante",
+    "country": "brasil",
+    "type": "pessoa",
+    "elemento": "vida",
+    "a": "brasil-212",
+    "b": "vida"
+  },
+  {
+    "id": "brasil-214",
+    "emoji": "👨‍👩‍👧",
+    "name": "Família",
+    "country": "brasil",
+    "type": "pessoa",
+    "elemento": "vida",
+    "a": "brasil-213",
+    "b": "vida"
+  },
+  {
+    "id": "brasil-215",
+    "emoji": "👶",
+    "name": "Bebê",
+    "country": "brasil",
+    "type": "pessoa",
+    "elemento": "vida",
+    "a": "brasil-214",
+    "b": "vida"
+  },
+  {
+    "id": "brasil-216",
+    "emoji": "👧",
+    "name": "Menina",
+    "country": "brasil",
+    "type": "pessoa",
+    "elemento": "vida",
+    "a": "brasil-215",
+    "b": "vida"
+  },
+  {
+    "id": "brasil-217",
+    "emoji": "👦",
+    "name": "Menino",
+    "country": "brasil",
+    "type": "pessoa",
+    "elemento": "vida",
+    "a": "brasil-216",
+    "b": "vida"
+  },
+  {
+    "id": "brasil-218",
+    "emoji": "👵",
+    "name": "Vovó",
+    "country": "brasil",
+    "type": "pessoa",
+    "elemento": "vida",
+    "a": "brasil-217",
+    "b": "vida"
+  },
+  {
+    "id": "brasil-219",
+    "emoji": "👴",
+    "name": "Vovô",
+    "country": "brasil",
+    "type": "pessoa",
+    "elemento": "vida",
+    "a": "brasil-218",
+    "b": "vida"
+  },
+  {
+    "id": "brasil-220",
+    "emoji": "🤱",
+    "name": "Mãe",
+    "country": "brasil",
+    "type": "pessoa",
+    "elemento": "vida",
+    "a": "brasil-219",
+    "b": "vida"
+  },
+  {
+    "id": "brasil-221",
+    "emoji": "👨",
+    "name": "Pai",
+    "country": "brasil",
+    "type": "pessoa",
+    "elemento": "vida",
+    "a": "brasil-220",
+    "b": "vida"
+  },
+  {
+    "id": "brasil-222",
+    "emoji": "👩",
+    "name": "Irmã",
+    "country": "brasil",
+    "type": "pessoa",
+    "elemento": "vida",
+    "a": "brasil-221",
+    "b": "vida"
+  },
+  {
+    "id": "brasil-223",
+    "emoji": "👦",
+    "name": "Irmão",
+    "country": "brasil",
+    "type": "pessoa",
+    "elemento": "vida",
+    "a": "brasil-222",
+    "b": "vida"
+  },
+  {
+    "id": "brasil-224",
+    "emoji": "👶",
+    "name": "Amigo",
+    "country": "brasil",
+    "type": "pessoa",
+    "elemento": "vida",
+    "a": "brasil-223",
+    "b": "vida"
+  },
+  {
+    "id": "brasil-225",
+    "emoji": "👸",
+    "name": "Princesa",
+    "country": "brasil",
+    "type": "pessoa",
+    "elemento": "vida",
+    "a": "brasil-224",
+    "b": "vida"
+  },
+  {
+    "id": "brasil-226",
+    "emoji": "🤴",
+    "name": "Príncipe",
+    "country": "brasil",
+    "type": "pessoa",
+    "elemento": "vida",
+    "a": "brasil-225",
+    "b": "vida"
+  },
+  {
+    "id": "brasil-227",
+    "emoji": "🦸",
+    "name": "Herói",
+    "country": "brasil",
+    "type": "pessoa",
+    "elemento": "vida",
+    "a": "brasil-226",
+    "b": "vida"
+  },
+  {
+    "id": "brasil-228",
+    "emoji": "🧙",
+    "name": "Mago",
+    "country": "brasil",
+    "type": "pessoa",
+    "elemento": "vida",
+    "a": "brasil-227",
+    "b": "vida"
+  },
+  {
+    "id": "brasil-229",
+    "emoji": "🧚",
+    "name": "Fada",
+    "country": "brasil",
+    "type": "pessoa",
+    "elemento": "vida",
+    "a": "brasil-228",
+    "b": "vida"
+  },
+  {
+    "id": "brasil-230",
+    "emoji": "📖",
+    "name": "Machado de Assis",
+    "country": "brasil",
+    "type": "famoso",
+    "elemento": "vida",
+    "a": "brasil-229",
+    "b": "vida"
+  },
+  {
+    "id": "brasil-231",
+    "emoji": "🎤",
+    "name": "Roberto Carlos",
+    "country": "brasil",
+    "type": "famoso",
+    "elemento": "vida",
+    "a": "brasil-230",
+    "b": "vida"
+  },
+  {
+    "id": "brasil-232",
+    "emoji": "⚽",
+    "name": "Ronaldo",
+    "country": "brasil",
+    "type": "famoso",
+    "elemento": "vida",
+    "a": "brasil-231",
+    "b": "vida"
+  },
+  {
+    "id": "brasil-233",
+    "emoji": "🎤",
+    "name": "Anitta",
+    "country": "brasil",
+    "type": "famoso",
+    "elemento": "vida",
+    "a": "brasil-232",
+    "b": "vida"
+  },
+  {
+    "id": "brasil-234",
+    "emoji": "📚",
+    "name": "Clarice Lispector",
+    "country": "brasil",
+    "type": "famoso",
+    "elemento": "vida",
+    "a": "brasil-233",
+    "b": "vida"
+  },
+  {
+    "id": "brasil-235",
+    "emoji": "🎨",
+    "name": "Tarsila do Amaral",
+    "country": "brasil",
+    "type": "famoso",
+    "elemento": "vida",
+    "a": "brasil-234",
+    "b": "vida"
+  },
+  {
+    "id": "brasil-236",
+    "emoji": "🏎️",
+    "name": "Ayrton Senna",
+    "country": "brasil",
+    "type": "famoso",
+    "elemento": "vida",
+    "a": "brasil-235",
+    "b": "vida"
+  },
+  {
+    "id": "brasil-237",
+    "emoji": "🎭",
+    "name": "Chico Anysio",
+    "country": "brasil",
+    "type": "famoso",
+    "elemento": "vida",
+    "a": "brasil-236",
+    "b": "vida"
+  },
+  {
+    "id": "brasil-238",
+    "emoji": "🎤",
+    "name": "Caetano Veloso",
+    "country": "brasil",
+    "type": "famoso",
+    "elemento": "vida",
+    "a": "brasil-237",
+    "b": "vida"
+  },
+  {
+    "id": "brasil-239",
+    "emoji": "🎤",
+    "name": "Gilberto Gil",
+    "country": "brasil",
+    "type": "famoso",
+    "elemento": "vida",
+    "a": "brasil-238",
+    "b": "vida"
+  },
+  {
+    "id": "brasil-240",
+    "emoji": "⚽",
+    "name": "Marta",
+    "country": "brasil",
+    "type": "famoso",
+    "elemento": "vida",
+    "a": "brasil-239",
+    "b": "vida"
+  },
+  {
+    "id": "brasil-241",
+    "emoji": "📖",
+    "name": "Monteiro Lobato",
+    "country": "brasil",
+    "type": "famoso",
+    "elemento": "vida",
+    "a": "brasil-240",
+    "b": "vida"
+  },
+  {
+    "id": "brasil-242",
+    "emoji": "🎤",
+    "name": "Elis Regina",
+    "country": "brasil",
+    "type": "famoso",
+    "elemento": "vida",
+    "a": "brasil-241",
+    "b": "vida"
+  },
+  {
+    "id": "brasil-243",
+    "emoji": "🎤",
+    "name": "Tim Maia",
+    "country": "brasil",
+    "type": "famoso",
+    "elemento": "vida",
+    "a": "brasil-242",
+    "b": "vida"
+  },
+  {
+    "id": "brasil-244",
+    "emoji": "⚽",
+    "name": "Romário",
+    "country": "brasil",
+    "type": "famoso",
+    "elemento": "vida",
+    "a": "brasil-243",
+    "b": "vida"
+  },
+  {
+    "id": "brasil-245",
+    "emoji": "🎤",
+    "name": "Ivete Sangalo",
+    "country": "brasil",
+    "type": "famoso",
+    "elemento": "vida",
+    "a": "brasil-244",
+    "b": "vida"
+  },
+  {
+    "id": "brasil-246",
+    "emoji": "📚",
+    "name": "Jorge Amado",
+    "country": "brasil",
+    "type": "famoso",
+    "elemento": "vida",
+    "a": "brasil-245",
+    "b": "vida"
+  },
+  {
+    "id": "brasil-247",
+    "emoji": "🎨",
+    "name": "Oscar Niemeyer",
+    "country": "brasil",
+    "type": "famoso",
+    "elemento": "vida",
+    "a": "brasil-246",
+    "b": "vida"
+  },
+  {
+    "id": "brasil-248",
+    "emoji": "⚽",
+    "name": "Zico",
+    "country": "brasil",
+    "type": "famoso",
+    "elemento": "vida",
+    "a": "brasil-247",
+    "b": "vida"
+  },
+  {
+    "id": "brasil-249",
+    "emoji": "🎤",
+    "name": "Luiz Gonzaga",
+    "country": "brasil",
+    "type": "famoso",
+    "elemento": "vida",
+    "a": "brasil-248",
+    "b": "vida"
+  },
+  {
+    "id": "brasil-250",
+    "emoji": "🍎",
+    "name": "Maçã",
+    "country": "brasil",
+    "type": "fruta",
+    "elemento": "terra",
+    "a": "brasil-249",
+    "b": "terra"
+  }
+]
