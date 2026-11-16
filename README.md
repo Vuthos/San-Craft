@@ -1,7 +1,7 @@
 # San-Craft
 
 Combine, discover, and invent — no name-calling, just boundaries and creativity ❤️
-Site: https://san-craft.vercel.app
+/ Site: https://san-craft.vercel.app
 
 # 🇺🇸 English
 🧪 San Craft — Combine, discover and invent your own universe!
